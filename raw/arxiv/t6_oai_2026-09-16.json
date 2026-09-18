@@ -1,0 +1,481 @@
+{
+ "run_date": "2026-09-16",
+ "since": "2026-08-25",
+ "sets": [
+  "eess",
+  "cs"
+ ],
+ "cats": [
+  "cs.IT",
+  "cs.LG",
+  "eess.SP",
+  "math.IT"
+ ],
+ "n_harvested": 21731,
+ "n_in_cats": 6569,
+ "tiers": {
+  "CORE": [
+   "grassmann",
+   "stiefel",
+   "noncoherent",
+   "non-coherent",
+   "unitary space-time",
+   "unitary space time",
+   "partially coherent",
+   "bingham",
+   "ustm"
+  ],
+  "TOPIC": [
+   "grassmann",
+   "stiefel",
+   "noncoherent",
+   "non-coherent",
+   "unitary space-time",
+   "unitary space time",
+   "partially coherent",
+   "bingham",
+   "ustm",
+   "constellation",
+   "subspace",
+   "blind detection",
+   "pilot-free",
+   "pilotless",
+   "without csi",
+   "no csi",
+   "csi-free",
+   "differential detection",
+   "noncoherent",
+   "block fading",
+   "block-fading"
+  ],
+  "GEN": [
+   "diffusion model",
+   "diffusion prior",
+   "diffusion-based",
+   "score-based",
+   "score based",
+   "generative",
+   "flow matching",
+   "flow-matching",
+   "denoising",
+   "learned prior",
+   "learnable prior",
+   "deep prior",
+   "generative prior"
+  ],
+  "METHOD": [
+   "diffusion model",
+   "diffusion prior",
+   "diffusion-based",
+   "score-based",
+   "score based",
+   "generative",
+   "flow matching",
+   "flow-matching",
+   "denoising",
+   "learned prior",
+   "learnable prior",
+   "deep prior",
+   "generative prior",
+   "riemannian",
+   "manifold",
+   "prior",
+   "learned",
+   "learning",
+   "neural",
+   "deep"
+  ],
+  "COMM": [
+   "mimo",
+   "wireless",
+   "channel",
+   "antenna",
+   "fading",
+   "detection",
+   "receiver",
+   "modulation"
+  ]
+ },
+ "counts": {
+  "RED": 0,
+  "ORANGE": 1,
+  "YELLOW": 4,
+  "BLUE": 0,
+  "GREEN": 6
+ },
+ "candidates": [
+  {
+   "id": "2605.03588",
+   "created": "2026-08-27",
+   "updated": "2026-08-28",
+   "datestamp": "2026-08-28",
+   "cats": [
+    "cs.LG",
+    "cs.AI"
+   ],
+   "title": "Cartan flow matching",
+   "authors": [
+    "Francesco Ruscelli",
+    "Ferdinando Zanchetta",
+    "Rita Fioresi"
+   ],
+   "abstract": "We introduce Cartan flow matching, a general framework for training flow matching models on Riemannian symmetric spaces, i.e. Riemannian manifolds with the property that at any point there exists a geodesic symmetry. This is a large class of manifolds that includes the sphere, hyperbolic space and Grassmannians. We exploit their algebraic structure to reformulate flow matching on symmetric spaces as flow matching on a subspace of the Lie algebra of their isometry group, thus linearizing the problem and avoiding the need to construct geodesic interpolation paths on the manifold. As an application, we showcase our framework on the real Grassmannians $ \\operatorname{SO}(n) / \\operatorname{SO}(k) \\times \\operatorname{SO}(n-k) $.",
+   "level": "ORANGE",
+   "core": [
+    "grassmann"
+   ],
+   "topic": [
+    "grassmann",
+    "subspace"
+   ],
+   "gen": [
+    "flow matching"
+   ],
+   "method": [
+    "flow matching",
+    "manifold",
+    "riemannian"
+   ],
+   "comm": [],
+   "new": true
+  },
+  {
+   "id": "2604.19904",
+   "created": "2026-08-30",
+   "updated": "2026-09-01",
+   "datestamp": "2026-09-01",
+   "cats": [
+    "eess.SP",
+    "cs.IT",
+    "math.IT"
+   ],
+   "title": "Grassmannian-Coded Beamforming for mmWave Channel Sensing with Unknown Complex Path Gain",
+   "authors": [
+    "Parthasarathi Khirwadkar",
+    "Robin Rajamäki",
+    "Piya Pal"
+   ],
+   "abstract": "This paper introduces a subspace-coding perspective to millimeter-wave channel sensing with a single RF chain when the complex channel gain is unknown. We show that in this case, candidate directions-of-arrival (DoAs) map naturally to subspaces through their beamspace responses, revealing an intrinsic Grassmannian geometry. This motivates beamspace Grassmannian codes (BGCs), designed to reduce DoA error by maximizing the minimum subspace distance of the joint beamformer-array response. We identify two regimes: one in which existing Grassmannian packings are exactly realizable as BGCs when the angular grid matches the array size, and another in which realizability for finer grids is constrained by the array geometry. Our analysis establishes the joint roles of subspace distance and beamforming gain in sensing performance and motivates two complementary beamformer designs. Without prior DoA information, we develop spatially isotropic beamformers based on algebraic Grassmannian packings and modulation-based channel codes. With a known DoA region of interest, we design convolutional beamspaces that combine directional gain with favorable subspace distance. Numerical results demonstrate robust BGC performance for both on-grid and off-grid DoAs, supporting the effectiveness of the proposed Grassmannian framework for mmWave channel sensing.",
+   "level": "YELLOW",
+   "core": [
+    "grassmann"
+   ],
+   "topic": [
+    "grassmann",
+    "subspace"
+   ],
+   "gen": [],
+   "method": [
+    "prior"
+   ],
+   "comm": [
+    "channel",
+    "modulation"
+   ],
+   "new": true
+  },
+  {
+   "id": "2608.30104",
+   "created": "2026-08-31",
+   "updated": "2026-09-01",
+   "datestamp": "2026-09-01",
+   "cats": [
+    "cs.IT",
+    "math.IT"
+   ],
+   "title": "Fluid Antenna Multiple Access for Noise Modulation",
+   "authors": [
+    "Hadi Zayyani",
+    "Felipe A. P. de Figueiredo"
+   ],
+   "abstract": "Noise modulation (NoiseMod) encodes information in the variance of a noise-like waveform. Its noncoherent structure enables low-complexity links, but co-channel users are challenging because interference affects the same variance statistic used for detection. We study fluid antenna multiple access (FAMA) for two-level NoiseMod with independent random bits from each interferer, producing two possible nonzero interference variances. We adopt exact finite-sample maximum-likelihood energy detection from prior NoiseMod/TNM work. We derive the exact single-port moment-generating function and moments of the random-bit aggregate interference, including heterogeneous user powers, and prove that the port minimizing conditional BEP is $\\arg\\max_k H_k/(σ_w^2+J_k)$, where $H_k$ is desired-link power and $J_k$ is instantaneous bit-state-aware interference variance. For independent fading ports, the common interferer-bit vector couples per-port decision metrics; conditioning on the number of high-state interferers yields an exact binomial-mixture order-statistic representation and avoids the generally invalid rule $F_{Z_{\\max}}=F_Z^{N_p}$. For spatially correlated operation, an integer-$μ$ $κ$-$μ$ benchmark uses full pairwise Jakes correlation in scattered fields, with channel-averaged BEP evaluated by conditional Monte Carlo. A standard-error-aware load study shows increased admissible co-channel users as spatial degrees of freedom grow. Finally, a finite-sample variance-domain sensing diagnostic quantifies the oracle gap under frozen channels and interferer states, providing a lower-bound warning on fast-FAMA sensing difficulty rather than a deployable acquisition protocol.",
+   "level": "YELLOW",
+   "core": [
+    "noncoherent"
+   ],
+   "topic": [
+    "noncoherent"
+   ],
+   "gen": [],
+   "method": [
+    "prior"
+   ],
+   "comm": [
+    "antenna",
+    "channel",
+    "detection",
+    "fading",
+    "modulation"
+   ],
+   "new": true
+  },
+  {
+   "id": "2608.30633",
+   "created": "2026-08-31",
+   "updated": "2026-09-01",
+   "datestamp": "2026-09-01",
+   "cats": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "title": "Quantum-Grassmann-Plucker Token Mixing for Deep Learning-Based Post-Disaster Damage Assessment",
+   "authors": [
+    "Kooroush Farahkhah",
+    "Umut Lagap",
+    "Taha Rezaei",
+    "Saman Ghaffarian"
+   ],
+   "abstract": "Timely post-disaster building damage assessment from satellite imagery is a critical engineering decision support task, yet it remains constrained by class imbalance, ambiguous intermediate damage states, and limited cross-event transferability. This study presents, to our knowledge, the first application of Grassmann-Plucker (GP) token mixing to computer vision and introduces two extensions for image classification: the Quantum-inspired Grassmann-Plucker (QGP) head and the Hybrid Quantum Machine Learning Grassmann-Plucker (HQML-GP) head. The GP head represents multiscale relationships among image patch tokens by encoding subspaces formed by token pairs with Plucker coordinates; QGP enriches these coordinates with amplitude-derived probability features, whereas HQML-GP incorporates expectation values generated by a simulated quantum circuit into the geometric token representation. Paired pre- and post-event image patches from the xBD tornado dataset were processed using a frozen six-channel Vision Transformer base encoder with 16 x 16-pixel patches. The three GP-based heads were compared with multilayer perceptron and Transformer baselines under identical training, checkpoint selection, and evaluation protocols. Joplin and Moore tornado samples were used for model development and seen-event testing, while Tuscaloosa was reserved for unseen-event evaluation. QGP led both test sets in accuracy and macro-F1: 83.46% and 64.50% for the seen events, and 66.45% and 52.70% for the unseen event. Although HQML-GP obtained the highest validation macro-F1 of 65.63%, it did not surpass QGP on either test set and required substantially more training time per epoch. These results establish GP token mixing as a competitive attention-free alternative to conventional Transformer-based token mixing for paired satellite image damage classification.",
+   "level": "YELLOW",
+   "core": [
+    "grassmann"
+   ],
+   "topic": [
+    "grassmann",
+    "subspace"
+   ],
+   "gen": [],
+   "method": [
+    "deep",
+    "learning"
+   ],
+   "comm": [
+    "channel"
+   ],
+   "new": true
+  },
+  {
+   "id": "2609.08312",
+   "created": "2026-09-08",
+   "updated": "2026-09-09",
+   "datestamp": "2026-09-09",
+   "cats": [
+    "cs.IT",
+    "cs.LG",
+    "eess.SP",
+    "math.IT"
+   ],
+   "title": "Non-Coherent Over-the-Air Federated Learning: Protocol, Convergence, and Device Scheduling",
+   "authors": [
+    "Haifeng Wen",
+    "Nicolò Michelusi",
+    "Osvaldo Simeone",
+    "Yang Yang",
+    "Hong Xing"
+   ],
+   "abstract": "To mitigate the scalability bottleneck in the radio access network (RAN) in federated edge learning (FEEL), over-the-air federated learning (AirFL) exploits waveform superposition over multiple-access channels (MACs) for analog model aggregation. However, coherent AirFL typically relies on stringent PHY-layer conditions such as accurate channel state information (CSI), tight time/frequency synchronization, and frequent transceiver calibration for signal alignment. However, these requirements, if not impossible to be met, incur substantial communication and computation overhead. In this paper, we propose a non-coherent AirFL (NCAirFL) protocol over a broadband single-antenna MAC, leveraging binary dithering, unbiased non-coherent detection, and long-term error feedback to waive the need for instantaneous CSI. For NCAirFL with general smooth non-convex objectives and a constant learning rate, we establish a convergence bound achieving the convergence rate in the same order of $\\mathcal{O}(1/\\sqrt{T})$ as communication-ideal FedAvg, where $T$ is the total number of communication rounds. To further improve communication efficiency under data and wireless resource heterogeneity, we also derive a lower bound on the expected single-round objective decrease in the global loss conditioned on device scheduling, building upon which a surrogate objective function is obtained for jointly optimal device selection and power control. Experimental results on MNIST and CIFAR-10 corroborate that NCAirFL achieves learning performance close to FedAvg in practical settings, with the proposed device scheduling policy substantially accelerating convergence.",
+   "level": "YELLOW",
+   "core": [
+    "non-coherent"
+   ],
+   "topic": [
+    "non-coherent"
+   ],
+   "gen": [],
+   "method": [
+    "learning"
+   ],
+   "comm": [
+    "antenna",
+    "channel",
+    "detection",
+    "wireless"
+   ],
+   "new": true
+  },
+  {
+   "id": "2604.21271",
+   "created": "2026-09-11",
+   "updated": "2026-09-14",
+   "datestamp": "2026-09-14",
+   "cats": [
+    "cs.IT",
+    "math.IT"
+   ],
+   "title": "Non-Asymptotic Performance Guarantees for MLE under a Gumbel-Softmax Index Model with Phaseless Measurements",
+   "authors": [
+    "Jinchi Chen",
+    "Mingxi Hu",
+    "Peigang Jiang",
+    "Xin Meng",
+    "Ke Wei",
+    "Xianyin Zhang"
+   ],
+   "abstract": "This paper studies the recovery of a complex-valued signal from index-only observations generated by a phaseless Gumbel-Softmax model. The model is motivated by limited-feedback frequency-division duplex massive MIMO systems, where it provides a smooth probabilistic surrogate for the deterministic hard-PMI selection rule. We consider a constrained maximum likelihood estimator and establish non-asymptotic statistical guarantees for its recovery performance. Under a bounded-design condition, we first derive a global excess-risk bound of order $\\sqrt{d/T}$, which does not explicitly depend on the number of candidate indices. A quantitative local identifiability condition is then introduced to characterize the regime in which sharper local guarantees are available. Under this condition, the excess risk and squared parameter error both scale as $d/T$. The condition is further verified with high probability for a Haar--Stiefel random design, and a local minimax lower bound is established that matches the upper bound in its dependence on the sample size, signal dimension, temperature parameter, and signal norm, up to design-dependent factors. Numerical experiments on FDD downlink channel estimation demonstrate that the proposed likelihood-based approach can overall achieve superior reconstruction performance, supporting the effectiveness of the Gumbel-Softmax model as a surrogate for hard PMI feedback.",
+   "level": "GREEN",
+   "core": [
+    "stiefel"
+   ],
+   "topic": [
+    "stiefel"
+   ],
+   "gen": [],
+   "method": [],
+   "comm": [
+    "channel",
+    "mimo"
+   ],
+   "new": true
+  },
+  {
+   "id": "2608.23422",
+   "created": "2026-08-24",
+   "updated": "2026-08-25",
+   "datestamp": "2026-08-25",
+   "cats": [
+    "eess.SP"
+   ],
+   "title": "RIS-Assisted Radar-Communication Coexistence: Detection Analysis with Channel Uncertainties",
+   "authors": [
+    "Rawan Derbas",
+    "Shimaa Naser",
+    "Hamad Yahya",
+    "Sanjeev Gurugopinath",
+    "Paschalis C. Sofotasios",
+    "Sami Muhaidat"
+   ],
+   "abstract": "Reconfigurable intelligent surfaces (RISs) have emerged as a promising technology for improving communication reliability in radar-communication coexistence (RCC) scenarios, particularly for communication users (CUs) located inside radar exclusion zones, where only the radar is permitted to operate and the two systems remain uncoordinated. In such settings, CUs may suffer from strong radar interference whose phase is random and difficult to track while also facing difficulty in obtaining accurate CSI from the base station. These challenges become even more critical in the presence of RIS phase errors, which limit the applicability of conventional coherent detection methods. Motivated by these practical limitations, this paper develops an RIS-assisted RCC framework for a CU operating in an uncoordinated RCC setting. Within this framework, we derive two practical maximum-likelihood (ML)-based detectors, both of which avoid tracking the radar interference phase: 1) a non-coherent detector that does not require instantaneous CSI and incorporates RIS phase uncertainty, and 2) a mismatched coherent detector that relies on imperfect CSI. For the non-coherent case, we derive an exact likelihood expression and a closed-form detector in the low to moderate SINR regime. For the imperfect CSI case, we derive the corresponding closed-form detector in the low-to-moderate SINR regime, and analyze performance through pairwise error probability (PEP), yielding a tractable approximation based on Gauss-Chebyshev quadrature. Numerical and analytical results show that the proposed non-coherent detector closely matches the optimal ML detector, validating its practical usefulness.",
+   "level": "GREEN",
+   "core": [
+    "non-coherent"
+   ],
+   "topic": [
+    "non-coherent"
+   ],
+   "gen": [],
+   "method": [],
+   "comm": [
+    "channel",
+    "detection"
+   ],
+   "new": false
+  },
+  {
+   "id": "2608.24880",
+   "created": "2026-08-25",
+   "updated": "2026-08-26",
+   "datestamp": "2026-08-26",
+   "cats": [
+    "eess.SP"
+   ],
+   "title": "Coherent Direct D-MIMO Localization",
+   "authors": [
+    "Benjamin J. B. Deutschmann",
+    "Lukas D'Angelo",
+    "Erik Leitinger",
+    "Klaus Witrisal"
+   ],
+   "abstract": "Distributed multiple-input multiple-output (D-MIMO) is envisioned as a key deployment architecture for future wireless systems, offering improved coverage and robustness through spatial separation, and favorable geometry for localization and sensing. Its greatest potential for localization lies in joint coherent processing across distributed antenna panels. However, stringent frequency-synchronization and phase-calibration requirements, together with multimodal likelihood functions, hinder the estimation process. Consequently, most existing algorithms process the panels noncoherently, potentially sacrificing localization accuracy. We present a unified family of Bayesian state-space filters that are based on concentrated Type-I and marginal Type-II likelihoods for wideband near-field D-MIMO systems and operate directly on noisy channel observations. The Type-I filters explicitly realize (i) noncoherent, (ii) coherent, and (iii) carrier-phase-based processing. For Type-II filtering, we show that a zero-mean model is inherently noncoherent under distributed processing, whereas observation stacking restores coherence. A nonzero-mean model can automatically adapt to the coherence available in the data, a property that we term ``soft coherence''. We derive posterior Cramér-Rao lower bounds (PCRLBs) for all three coherence levels and show that each level is fundamentally tied to the number of phase parameters used for positioning or treated as nuisance parameters. Numerical results show that the coherence-specific filters closely approach their respective PCRLBs and that coherent processing can substantially outperform noncoherent processing. We derive particle-based belief propagation methods, which parallelize over particles and distributed panels, scale linearly with the observed data, and achieve runtimes of tens of milliseconds per time step in a GPU-accelerated implementation.",
+   "level": "GREEN",
+   "core": [
+    "noncoherent"
+   ],
+   "topic": [
+    "noncoherent"
+   ],
+   "gen": [],
+   "method": [],
+   "comm": [
+    "antenna",
+    "channel",
+    "mimo",
+    "wireless"
+   ],
+   "new": true
+  },
+  {
+   "id": "2608.27041",
+   "created": "2026-08-27",
+   "updated": "2026-08-28",
+   "datestamp": "2026-08-28",
+   "cats": [
+    "eess.SP"
+   ],
+   "title": "Radio Imaging and Resource Allocation in Frugal Multistatic D-MIMO ISAC Systems",
+   "authors": [
+    "Sauradeep Dey",
+    "Musa Furkan Keskin",
+    "Dario Tagliaferri",
+    "Gonzalo Seco-Granados",
+    "Henk Wymeersch"
+   ],
+   "abstract": "Emerging integrated sensing and communication (ISAC) systems based on distributed MIMO (D-MIMO) enable radio imaging by exploiting spatial diversity across multiple access points (APs). However, joint sensing and communication introduce mutual interference between communication and sensing signals. In this paper, we propose a downlink D-MIMO ISAC framework that allocates orthogonal subcarriers to sensing and communication to eliminate inter-function interference. We consider a phase-coherent architecture in which single-antenna APs serve communication user equipment (UEs) while constructing a reflectivity image of the environment. We develop a two-timescale resource allocation framework that minimizes reconstructed-image entropy subject to a communication spectral-efficiency (SE) constraint. The proposed design follows a communication-centric policy, where imaging uses the resources left after satisfying the communication requirement. The long-timescale optimization (LTO) determines AP modes and subcarrier assignment, including the partitioning between communication and sensing and the allocation of sensing subcarriers among transmit APs, using synthetic scenarios with random UE and target distributions. The short-timescale optimization (STO) adapts the communication-sensing power-splitting factor to preserve the SE constraint in the current scenario. Numerical results show that the proposed orthogonal subcarrier allocation achieves a superior sensing-communication trade-off compared with conventional superposition, where sensing and communication share the same subcarriers. Finally, we evaluate coherent and non-coherent imaging receivers and identify the synchronization regimes in which each approach provides better imaging and localization performance.",
+   "level": "GREEN",
+   "core": [
+    "non-coherent"
+   ],
+   "topic": [
+    "non-coherent"
+   ],
+   "gen": [],
+   "method": [],
+   "comm": [
+    "antenna",
+    "mimo",
+    "receiver"
+   ],
+   "new": true
+  },
+  {
+   "id": "2608.30729",
+   "created": "2026-08-31",
+   "updated": "2026-09-01",
+   "datestamp": "2026-09-01",
+   "cats": [
+    "physics.app-ph",
+    "eess.SP"
+   ],
+   "title": "Bounds on Shaping Partially Coherent Microwaves with Programmable Scattering Systems",
+   "authors": [
+    "Philipp del Hougne"
+   ],
+   "abstract": "We derive bounds on manipulating partially coherent microwaves with programmable scattering systems. We first consider the concentration of power from a partially coherent input into a single output port and derive a prototype-aware bound by combining multiport network theory (MNT) with semidefinite relaxation (SDR). We then address general coherency-matrix synthesis, deriving architecture-independent bounds on fidelity and useful strength, prototype-specific scalar refinements thereof, and fully prototype-aware SDR bounds on the useful-strength--fidelity Pareto frontier. The prototype-aware formulations account for mutual coupling, loss, discrete tunability, and static scattering. We evaluate the bounds on four experimental RIS-parametrized MIMO systems with up to 100 1-bit-programmable elements, using proxy-MNT models estimated from measurements. The resulting bounds are generally tight compared with feasible discrete-optimization outcomes. Interestingly, for coherency synthesis, the simpler bounds can in some cases be tighter than the fully prototype-aware bounds, highlighting their complementarity. Our results provide certified limits for wave-domain processing and harvesting of partially coherent microwaves.",
+   "level": "GREEN",
+   "core": [
+    "partially coherent"
+   ],
+   "topic": [
+    "partially coherent"
+   ],
+   "gen": [],
+   "method": [],
+   "comm": [
+    "mimo"
+   ],
+   "new": true
+  },
+  {
+   "id": "2609.11289",
+   "created": "2026-09-10",
+   "updated": "2026-09-11",
+   "datestamp": "2026-09-11",
+   "cats": [
+    "cs.IT",
+    "math.IT"
+   ],
+   "title": "Occupancy-Domain Over-the-Air Computation",
+   "authors": [
+    "Seyed Mohammad Azimi-Abarghouyi"
+   ],
+   "abstract": "Over-the-air computation (AirComp) aggregates distributed data through the wireless multiple-access channel, but coherent implementations require channel state information (CSI), phase alignment, and power control, whereas non-coherent energy methods remain affected by fading. Signal superposition at the receive antenna is linear but requires coherence, and energy superposition is linear only in expectation over fading. We introduce occupancy-domain computation (ODC), whose observable is neither a received amplitude nor an energy: the sum is carried by the silence of the shared resources. With exponential Bernoulli activation, the individual silence probabilities multiply, and the server recovers the sum from the idle fraction using binary activity decisions alone, so that once an activation is detected the amplitude that produced it does not enter the estimate. We characterize the maximum-likelihood estimator, optimal load, and a scale-integrated Fisher-information bound for non-adaptive operation over unknown dynamic ranges. We then introduce balanced occupancy computation (BOC), where each device forms a data-dependent quota of random burst placements. This removes the random placement-count fluctuation of Bernoulli activation; under ideal detection, the leading-order asymptotic root-mean-square error of BOC is no larger than that of Bernoulli ODC at any load and approaches $1/\\sqrt{2M}$, where $M$ is the number of resource elements, as the number of devices becomes small relative to $M$. We further analyze unknown-scale operation, finite-frame deviations, and heterogeneous detection misses. Simulations validate the theory and compare ODC/BOC with affine non-coherent energy aggregation and REED.",
+   "level": "GREEN",
+   "core": [
+    "non-coherent"
+   ],
+   "topic": [
+    "non-coherent"
+   ],
+   "gen": [],
+   "method": [],
+   "comm": [
+    "antenna",
+    "channel",
+    "detection",
+    "fading",
+    "wireless"
+   ],
+   "new": true
+  }
+ ],
+ "note": "re-scored from saved pool after matcher fix (leading word boundary; trailing boundary for tokens <=5 chars)"
+}

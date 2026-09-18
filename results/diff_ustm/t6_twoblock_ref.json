@@ -1,0 +1,160 @@
+{
+ "meta": {
+  "date": "2026-09-16",
+  "seed": 20260916,
+  "cases": "16,2,16,2,4096,-8:2:1,2000;32,2,32,2,4096,-14:-4:1,1000"
+ },
+ "cases": [
+  {
+   "T": 16,
+   "M": 2,
+   "N": 16,
+   "r": 2,
+   "K": 4096,
+   "gamma": 8.0,
+   "n": 2000,
+   "rows": [
+    {
+     "snr_dB": -8.0,
+     "SER_struct": 0.3405,
+     "SER_genie": 0.13,
+     "n": 2000
+    },
+    {
+     "snr_dB": -7.0,
+     "SER_struct": 0.2175,
+     "SER_genie": 0.0665,
+     "n": 2000
+    },
+    {
+     "snr_dB": -6.0,
+     "SER_struct": 0.136,
+     "SER_genie": 0.0465,
+     "n": 2000
+    },
+    {
+     "snr_dB": -5.0,
+     "SER_struct": 0.0825,
+     "SER_genie": 0.022,
+     "n": 2000
+    },
+    {
+     "snr_dB": -4.0,
+     "SER_struct": 0.0405,
+     "SER_genie": 0.0105,
+     "n": 2000
+    },
+    {
+     "snr_dB": -3.0,
+     "SER_struct": 0.019,
+     "SER_genie": 0.0015,
+     "n": 2000
+    },
+    {
+     "snr_dB": -2.0,
+     "SER_struct": 0.0065,
+     "SER_genie": 0.0025,
+     "n": 2000
+    },
+    {
+     "snr_dB": -1.0,
+     "SER_struct": 0.001,
+     "SER_genie": 0.0,
+     "n": 2000
+    },
+    {
+     "snr_dB": 0.0,
+     "SER_struct": 0.003,
+     "SER_genie": 0.001,
+     "n": 2000
+    },
+    {
+     "snr_dB": 1.0,
+     "SER_struct": 0.0035,
+     "SER_genie": 0.0,
+     "n": 2000
+    },
+    {
+     "snr_dB": 2.0,
+     "SER_struct": 0.0,
+     "SER_genie": 0.0,
+     "n": 2000
+    }
+   ],
+   "snr_at_ser1em2": {
+    "struct": -2.401611165291798,
+    "genie": -3.974926815509381
+   }
+  },
+  {
+   "T": 32,
+   "M": 2,
+   "N": 32,
+   "r": 2,
+   "K": 4096,
+   "gamma": 16.0,
+   "n": "1000 (-14..-9), 600 (-8..-6, separate RNG state)",
+   "rows": [
+    {
+     "snr_dB": -14.0,
+     "SER_struct": 0.415,
+     "SER_genie": 0.08,
+     "n": 1000
+    },
+    {
+     "snr_dB": -13.0,
+     "SER_struct": 0.263,
+     "SER_genie": 0.035,
+     "n": 1000
+    },
+    {
+     "snr_dB": -12.0,
+     "SER_struct": 0.182,
+     "SER_genie": 0.013,
+     "n": 1000
+    },
+    {
+     "snr_dB": -11.0,
+     "SER_struct": 0.116,
+     "SER_genie": 0.013,
+     "n": 1000
+    },
+    {
+     "snr_dB": -10.0,
+     "SER_struct": 0.058,
+     "SER_genie": 0.002,
+     "n": 1000
+    },
+    {
+     "snr_dB": -9.0,
+     "SER_struct": 0.03,
+     "SER_genie": 0.003,
+     "n": 1000
+    },
+    {
+     "snr_dB": -8.0,
+     "SER_struct": 0.015,
+     "SER_genie": 0.0,
+     "n": 600
+    },
+    {
+     "snr_dB": -7.0,
+     "SER_struct": 0.006666666666666667,
+     "SER_genie": 0.0,
+     "n": 600
+    },
+    {
+     "snr_dB": -6.0,
+     "SER_struct": 0.005,
+     "SER_genie": 0.0,
+     "n": 600
+    }
+   ],
+   "snr_at_ser1em2": {
+    "struct": -7.5,
+    "genie": -10.859833337248393
+   },
+   "note": "original detached run died after -9 dB; -8..-6 recomputed inline with n=600"
+  }
+ ]
+}

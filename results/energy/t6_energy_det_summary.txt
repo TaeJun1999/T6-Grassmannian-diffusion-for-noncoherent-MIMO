@@ -1,0 +1,29 @@
+t6_energy_det.py — energy-based (MCG 2016) detection in the T6 structured channel (seed 20260917, exact numerics)
+model: M=1, x=sqrt(p_k) 1_T, h=U g, g~CN(0,(N/r)I), W~CN(0,1); S=||Y||_F^2/(NT)
+
+Table A. Floor SER (N->inf), two nonzero levels ratio kappa, rank r (SER-optimal threshold)
+r\kappa        2        4        8       16       64
+r=  1     0.3750   0.2638   0.1749   0.1104   0.0393
+r=  2     0.3196   0.1764   0.0848   0.0361   0.0050
+r=  4     0.2493   0.0900   0.0238   0.0048   0.0001
+r=  8     0.1668   0.0277   0.0023   0.0001   0.0000
+r= 32     0.0256   0.0001   0.0000   0.0000   0.0000
+
+Table B. OOK {0, 2 rho}: SNR (dB) at SER 1e-2
+case            energy rx   MF prior-free ML  subspace genie ML
+N32_T1_r2            5.04               5.04               0.89
+N32_T16_r2          -1.63              -7.00             -11.15
+N32_T1_r32          -1.90                  -                  -
+N32_T16_r32         -8.84                  -                  -
+N16_T1_r2            6.86               6.86               3.91
+N16_T8_r2            1.61              -2.16              -5.13
+N16_T1_r16           0.52                  -                  -
+N16_T8_r16          -4.95                  -                  -
+N64_T1_r2            3.29               3.29              -2.11
+N64_T16_r2          -3.21              -8.75             -14.16
+N64_T1_r64          -4.01                  -                  -
+N64_T16_r64        -10.76                  -                  -
+
+Derived gaps (dB): low-rank loss (energy r=2 vs iid) N16:T1 6.34,T8 6.56 | N32:T1 6.94,T16 7.21 | N64:T1 7.30,T16 7.55
+MCG architecture loss (energy vs MF ML, r=2): N16T8 3.77 | N32T16 5.37 | N64T16 5.54
+value of subspace knowledge for OOK (MF ML vs genie ML): N16 2.95 | N32 4.15 | N64 5.41 (independent of T)

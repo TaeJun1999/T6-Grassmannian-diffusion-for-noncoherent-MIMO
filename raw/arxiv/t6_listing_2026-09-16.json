@@ -1,0 +1,2085 @@
+{
+ "run_date": "2026-09-16",
+ "months": [
+  "2026-08",
+  "2026-09"
+ ],
+ "full_cats": [
+  "cs.IT",
+  "eess.SP"
+ ],
+ "title_cats": [
+  "cs.LG"
+ ],
+ "listing_stats": [
+  {
+   "cat": "cs.IT",
+   "month": "2026-08",
+   "total": 415,
+   "parsed": 415
+  },
+  {
+   "cat": "cs.IT",
+   "month": "2026-09",
+   "total": 254,
+   "parsed": 254
+  },
+  {
+   "cat": "eess.SP",
+   "month": "2026-08",
+   "total": 546,
+   "parsed": 546
+  },
+  {
+   "cat": "eess.SP",
+   "month": "2026-09",
+   "total": 316,
+   "parsed": 316
+  },
+  {
+   "cat": "cs.LG",
+   "month": "2026-08",
+   "total": 4121,
+   "parsed": 4121
+  },
+  {
+   "cat": "cs.LG",
+   "month": "2026-09",
+   "total": 2149,
+   "parsed": 2149
+  }
+ ],
+ "n_pool": 7512,
+ "tiers": {
+  "A": [
+   "grassmann",
+   "stiefel",
+   "noncoherent",
+   "non-coherent",
+   "unitary space-time",
+   "unitary space time",
+   "constellation",
+   "subspace",
+   "partially coherent",
+   "bingham",
+   "blind detection",
+   "pilot-free",
+   "pilotless",
+   "without csi",
+   "no csi"
+  ],
+  "B": [
+   "diffusion",
+   "generative",
+   "flow matching",
+   "flow-matching",
+   "score-based",
+   "score based",
+   "riemannian",
+   "manifold",
+   "learned prior",
+   "learnable prior",
+   "deep prior",
+   "prior"
+  ],
+  "C": [
+   "learn",
+   "neural",
+   "deep",
+   "transformer",
+   "autoencoder"
+  ]
+ },
+ "candidates": [
+  {
+   "id": "2608.04227",
+   "title": "Random features for Grassmannian kernel approximation with bounded rank-one projections",
+   "authors": "Rémi Delogne, Laurent Jacques",
+   "subjects": "Machine Learning (cs.LG); Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP",
+    "cs.LG"
+   ],
+   "title_A": [
+    "grassmann"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "We propose a family of random feature maps for scalable kernel machines on low-dimensional subspaces, ie on the Grassmannian manifold. Such representations are useful when data classes or clusters are well described by the span of a few samples. Classical Grassmannian kernels, including the projection and Binet-Cauchy kernels, require full Gram matrices, which leads to prohibitive computational and memory costs for large high-dimensional subspace datasets. We address this limitation using random features based on rank-one projections of subspace projection matrices followed by bounded non-linear transforms, either periodic or binary, to control the resulting distributions. We show that inner products in the random feature space approximate well-defined rotation-invariant Grassmannian kernels that depend only on the principal angles between subspaces. When the number of features is sufficiently large relative to the intrinsic subspace dimension, the approximation holds uniformly over all fixed-dimensional subspaces with high probability. For periodic transforms, the approximated kernel has a closed-form expression with tunable behaviour between inverse Binet-Cauchy and Gaussian-type regimes. Binary transforms yield compact one-bit subspace features, although no closed-form kernel is known. Structured rank-one projections based on randomised fast Fourier transforms further reduce computation without sacrificing practical accuracy. Experiments on synthetic data and ETH-80 classification tasks show that these features accurately preserve Grassmannian geometry while reducing computation, memory, and storage. Rank-one embeddings therefore provide a practical and scalable alternative to classical Grassmannian kernels.",
+   "dateline": "[Submitted on 4 Aug 2026]",
+   "abs_A": [
+    "grassmann",
+    "subspace"
+   ],
+   "abs_B": [
+    "manifold"
+   ],
+   "abs_C": [],
+   "level": "ORANGE"
+  },
+  {
+   "id": "2608.06218",
+   "title": "Muon on the Stiefel Manifold Admits an Exact Closed-Form Update",
+   "authors": "Mikhail Solonko, Molozhavenko Alexander, Maxim Rakhuba",
+   "subjects": "Optimization and Control (math.OC); Machine Learning (cs.LG); Numerical Analysis (math.NA)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "stiefel"
+   ],
+   "title_B": [
+    "manifold"
+   ],
+   "title_C": [],
+   "abstract": "We study Muon, a recently proposed matrix-aware optimization method, in the context of the Stiefel manifold. This manifold consists of matrices with orthonormal columns and is ubiquitous in machine learning and scientific computing. Existing extensions of Muon to this manifold rely on heuristic, approximate, or iterative updates with varying computational efficiency. We show that the corresponding Stiefel Muon update admits an exact closed-form solution and use this result to develop Skewon, a practical algorithm for orthogonality-constrained optimization with an efficient implementation. We further establish first-order convergence guarantees for Skewon in the smooth non-convex setting.",
+   "dateline": "[Submitted on 6 Aug 2026]",
+   "abs_A": [
+    "stiefel"
+   ],
+   "abs_B": [
+    "manifold"
+   ],
+   "abs_C": [
+    "learn"
+   ],
+   "level": "ORANGE"
+  },
+  {
+   "id": "2608.30633",
+   "title": "Quantum-Grassmann-Plucker Token Mixing for Deep Learning-Based Post-Disaster Damage Assessment",
+   "authors": "Kooroush Farahkhah, Umut Lagap, Taha Rezaei, Saman Ghaffarian",
+   "subjects": "Computer Vision and Pattern Recognition (cs.CV); Machine Learning (cs.LG)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "grassmann"
+   ],
+   "title_B": [],
+   "title_C": [
+    "learn",
+    "deep"
+   ],
+   "abstract": "Timely post-disaster building damage assessment from satellite imagery is a critical engineering decision support task, yet it remains constrained by class imbalance, ambiguous intermediate damage states, and limited cross-event transferability. This study presents, to our knowledge, the first application of Grassmann-Plucker (GP) token mixing to computer vision and introduces two extensions for image classification: the Quantum-inspired Grassmann-Plucker (QGP) head and the Hybrid Quantum Machine Learning Grassmann-Plucker (HQML-GP) head. The GP head represents multiscale relationships among image patch tokens by encoding subspaces formed by token pairs with Plucker coordinates; QGP enriches these coordinates with amplitude-derived probability features, whereas HQML-GP incorporates expectation values generated by a simulated quantum circuit into the geometric token representation. Paired pre- and post-event image patches from the xBD tornado dataset were processed using a frozen six-channel Vision Transformer base encoder with 16 x 16-pixel patches. The three GP-based heads were compared with multilayer perceptron and Transformer baselines under identical training, checkpoint selection, and evaluation protocols. Joplin and Moore tornado samples were used for model development and seen-event testing, while Tuscaloosa was reserved for unseen-event evaluation. QGP led both test sets in accuracy and macro-F1: 83.46% and 64.50% for the seen events, and 66.45% and 52.70% for the unseen event. Although HQML-GP obtained the highest validation macro-F1 of 65.63%, it did not surpass QGP on either test set and required substantially more training time per epoch. These results establish GP token mixing as a competitive attention-free alternative to conventional Transformer-based token mixing for paired satellite image damage classification.",
+   "dateline": "[Submitted on 31 Aug 2026]",
+   "abs_A": [
+    "grassmann",
+    "subspace"
+   ],
+   "abs_B": [],
+   "abs_C": [
+    "learn",
+    "transformer"
+   ],
+   "level": "ORANGE"
+  },
+  {
+   "id": "2608.30986",
+   "title": "Controlling Refusal Behavior of LLMs via Stiefel-Constrained Rotation Steering",
+   "authors": "Kirill Bunin, Dmitry Bylinkin, Vladimir Aletov, Daniil Medyakov, Vladimir Solodkin, Aleksandr Beznosikov",
+   "subjects": "Machine Learning (cs.LG); Computation and Language (cs.CL)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "stiefel"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "Activation steering has emerged as a lightweight approach for controlling model refusal at inference time. A growing line of research explores trainable rotations of activations to develop geometrically principled intervention mechanisms. However, existing techniques rely on auxiliary constructs, such as refusal vectors, to define these rotations. In our work, we develop a self-contained methodology for learning parameter-efficient rotational transformations based on Riemannian optimization. We empirically validate the proposed scheme, demonstrating its superiority in intervention efficiency. An extensive ablation study highlights the importance of key design choices in our method. Our results identify the proposed rotation-based steering scheme as a promising direction for more reliable control over the behavior of LLMs.",
+   "dateline": "[Submitted on 31 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "riemannian"
+   ],
+   "abs_C": [
+    "learn"
+   ],
+   "level": "ORANGE"
+  },
+  {
+   "id": "2609.03361",
+   "title": "Grassmann--Plücker Parametrization of Convolutional Filter Subspaces: Regularity and Closed Embeddings",
+   "authors": "Hongyu Yuan, Huaiqing Zuo",
+   "subjects": "Algebraic Geometry (math.AG); Machine Learning (cs.LG)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "grassmann",
+    "subspace"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "We propose a geometric parametrization of the filters in a single convolutional layer: the parameter is no longer an ordered family of filter vectors, but a fixed-dimensional subspace of the filter space. For one-dimensional finite-stride convolution, the filter-to-convolution-operator correspondence gives an injective linear map $\\mathcal{C}:\\mathcal{K}\\to H$. This map sends filter subspaces in $\\mathrm{Gr}(q,\\mathcal{K})$ to operator subspaces in $\\mathrm{Gr}(q,H)$; composing it with the Plücker embedding yields a projective parametrization $\\Phi:\\mathrm{Gr}(q,\\mathcal{K})\\to\\mathbb{P}(\\bigwedge^q H)$. Using $T_U\\mathrm{Gr}(q,\\mathcal{K})\\cong\\mathrm{Hom}(U,\\mathcal{K}/U)$, we compute the differential of the induced Grassmannian map and show that the differential of $\\Phi$ is injective at every point. We then use the vanishing equations for Plücker coordinates and standard affine coordinates on a Grassmannian to prove that $\\mathrm{Gr}(q,\\mathcal{C}(\\mathcal{K}))\\hookrightarrow\\mathrm{Gr}(q,H)$ is a closed embedding, and hence that $\\Phi$ is a closed embedding. Consequently, the parameter space is isomorphic to its projective image, the parametrization is finite and birational onto its image, every fiber is a singleton, and the resulting projective neural variety is smooth. For $k=4$ and $q=2$, we also use Singular to recover the image ideal and check its dimension, degree, chart rank, and smoothness. This computation illustrates, rather than replaces, the general proof. Finally, we discuss possible connections with filter redundancy and low-rank convolution, while distinguishing the proved geometric results from application proposals requiring numerical validation.",
+   "dateline": "[Submitted on 3 Sep 2026]",
+   "abs_A": [
+    "grassmann",
+    "subspace"
+   ],
+   "abs_B": [],
+   "abs_C": [
+    "neural"
+   ],
+   "level": "ORANGE"
+  },
+  {
+   "id": "2609.08312",
+   "title": "Non-Coherent Over-the-Air Federated Learning: Protocol, Convergence, and Device Scheduling",
+   "authors": "Haifeng Wen, Nicolò Michelusi, Osvaldo Simeone, Yang Yang, Hong Xing",
+   "subjects": "Information Theory (cs.IT); Machine Learning (cs.LG); Signal Processing (eess.SP)",
+   "cats": [
+    "cs.IT",
+    "eess.SP",
+    "cs.LG"
+   ],
+   "title_A": [
+    "non-coherent"
+   ],
+   "title_B": [],
+   "title_C": [
+    "learn"
+   ],
+   "abstract": "To mitigate the scalability bottleneck in the radio access network (RAN) in federated edge learning (FEEL), over-the-air federated learning (AirFL) exploits waveform superposition over multiple-access channels (MACs) for analog model aggregation. However, coherent AirFL typically relies on stringent PHY-layer conditions such as accurate channel state information (CSI), tight time/frequency synchronization, and frequent transceiver calibration for signal alignment. However, these requirements, if not impossible to be met, incur substantial communication and computation overhead. In this paper, we propose a non-coherent AirFL (NCAirFL) protocol over a broadband single-antenna MAC, leveraging binary dithering, unbiased non-coherent detection, and long-term error feedback to waive the need for instantaneous CSI. For NCAirFL with general smooth non-convex objectives and a constant learning rate, we establish a convergence bound achieving the convergence rate in the same order of $\\mathcal{O}(1/\\sqrt{T})$ as communication-ideal FedAvg, where $T$ is the total number of communication rounds. To further improve communication efficiency under data and wireless resource heterogeneity, we also derive a lower bound on the expected single-round objective decrease in the global loss conditioned on device scheduling, building upon which a surrogate objective function is obtained for jointly optimal device selection and power control. Experimental results on MNIST and CIFAR-10 corroborate that NCAirFL achieves learning performance close to FedAvg in practical settings, with the proposed device scheduling policy substantially accelerating convergence.",
+   "dateline": "[Submitted on 8 Sep 2026]",
+   "abs_A": [
+    "non-coherent"
+   ],
+   "abs_B": [],
+   "abs_C": [
+    "learn"
+   ],
+   "level": "ORANGE"
+  },
+  {
+   "id": "2609.08354",
+   "title": "Geometry-Aware Bayesian Parameter-Efficient Fine-Tuning on the Stiefel Manifold via Stein Variational Gradient Descent",
+   "authors": "Quang-Duy Tran, Trung Le, Bao Duong, Phuoc Nguyen, Thin Nguyen",
+   "subjects": "Machine Learning (cs.LG)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "stiefel"
+   ],
+   "title_B": [
+    "manifold"
+   ],
+   "title_C": [],
+   "abstract": "Several geometry-aware approaches to low-rank adaptation have emerged for parameter-efficient fine-tuning of large pre-trained models. These methods aim to take full advantage of the geometric structure of low-rank manifolds for improving the efficiency in subspace utilization and reducing redundancy by enforcing orthogonality constraints during optimization. The strong empirical results of these techniques have motivated further study into whether predictions from such geometry-based adaptation methods could be overconfident. In this paper, we build on the singular value decomposition factorization of adapters to develop a framework based on Stein variational gradient descent (SVGD). In this formulation, the low-rank matrices are transported along the Stiefel manifold to match the targeted distributions while retaining their crucial geometric structure. Since this geometry-aware SVGD approach provides multiple solutions during inference, it supports uncertainty quantification and produces better-calibrated adapters on the Stiefel manifold. Extensive experiments show that our method delivers strong model calibration and attains higher prediction accuracy than SVGD and related uncertainty estimation methods that are formulated in Euclidean space.",
+   "dateline": "[Submitted on 8 Sep 2026]",
+   "abs_A": [
+    "stiefel",
+    "subspace"
+   ],
+   "abs_B": [
+    "manifold"
+   ],
+   "abs_C": [],
+   "level": "ORANGE"
+  },
+  {
+   "id": "2608.04406",
+   "title": "Incremental Aggregation on the Grassmannian for Asynchronous Eigenspace Computation",
+   "authors": "Xiaolu Wang, Jiang Hu, Hoi-To Wai",
+   "subjects": "Optimization and Control (math.OC); Signal Processing (eess.SP); Numerical Analysis (math.NA); Machine Learning (stat.ML)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [
+    "grassmann"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "We study asynchronous optimization for finite-sum eigenspace computation in heterogeneous distributed systems. The theoretical foundations for asynchronous eigenspace computation remain scarce, with existing approaches offering limited coverage of dynamics directly on the Grassmannian under stale information. In this paper, we propose a Grassmannian incremental aggregation method that refreshes only arriving components and reuses cached gradients, retaining low per-update cost without global synchronization. The method employs an extrinsic polar update that preserves the intrinsic subspace geometry without requiring parallel transport of stale tangent vectors. Our analysis establishes a tight angle-dependent gradient-dominance characterization of the objective and a basin-invariance property for stale aggregated updates. These yield two-phase linear convergence, comprising an explicit broad-basin regime and a sharper local regime, with constants controlled by component spectral spreads. Experiments on serial and distributed PCA demonstrate improved sample efficiency and wall-clock convergence over representative baselines.",
+   "dateline": "[Submitted on 5 Aug 2026]",
+   "abs_A": [
+    "grassmann",
+    "subspace"
+   ],
+   "abs_B": [],
+   "abs_C": [],
+   "level": "YELLOW"
+  },
+  {
+   "id": "2608.30729",
+   "title": "Bounds on Shaping Partially Coherent Microwaves with Programmable Scattering Systems",
+   "authors": "Philipp del Hougne",
+   "subjects": "Applied Physics (physics.app-ph); Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [
+    "partially coherent"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "We derive bounds on manipulating partially coherent microwaves with programmable scattering systems. We first consider the concentration of power from a partially coherent input into a single output port and derive a prototype-aware bound by combining multiport network theory (MNT) with semidefinite relaxation (SDR). We then address general coherency-matrix synthesis, deriving architecture-independent bounds on fidelity and useful strength, prototype-specific scalar refinements thereof, and fully prototype-aware SDR bounds on the useful-strength--fidelity Pareto frontier. The prototype-aware formulations account for mutual coupling, loss, discrete tunability, and static scattering. We evaluate the bounds on four experimental RIS-parametrized MIMO systems with up to 100 1-bit-programmable elements, using proxy-MNT models estimated from measurements. The resulting bounds are generally tight compared with feasible discrete-optimization outcomes. Interestingly, for coherency synthesis, the simpler bounds can in some cases be tighter than the fully prototype-aware bounds, highlighting their complementarity. Our results provide certified limits for wave-domain processing and harvesting of partially coherent microwaves.",
+   "dateline": "[Submitted on 31 Aug 2026]",
+   "abs_A": [
+    "partially coherent"
+   ],
+   "abs_B": [],
+   "abs_C": [],
+   "level": "YELLOW"
+  },
+  {
+   "id": "2609.04916",
+   "title": "Minimum Schubert Codewords and Second-Minimum Grassmann Codewords",
+   "authors": "Muskan Khaneja, Prasant Singh",
+   "subjects": "Information Theory (cs.IT)",
+   "cats": [
+    "cs.IT"
+   ],
+   "title_A": [
+    "grassmann"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "In this paper, we give a classification of the minimum weight codewords of Schubert codes $C_\\alpha(\\ell, m)$ by settling the conjecture proposed by Ghorpade and Singh in 2018, for all values of $q$ and all $\\alpha$. We use this classification to prove that a codeword of the Grassmann code $C(\\ell, m)$ has the second minimum weight if and only if it is indexed by an element of $\\bigwedge^{m-\\ell}V$ that can be written as the product of a decomposable $(m-\\ell-2)$-vector and an alternating $2$-vector of rank $4$. Finally, we give an enumeration of the second minimum weight codewords of the Grassmann code.",
+   "dateline": "[Submitted on 4 Sep 2026 (v1), last revised 7 Sep 2026 (this version, v2)]",
+   "abs_A": [
+    "grassmann"
+   ],
+   "abs_B": [],
+   "abs_C": [],
+   "level": "YELLOW"
+  },
+  {
+   "id": "2609.08784",
+   "title": "The Weight Spectrum of the Affine Grassmann Code $C^{\\mathbb A}(3,6)$",
+   "authors": "Prasant Singh, Rohit Yadav",
+   "subjects": "Information Theory (cs.IT)",
+   "cats": [
+    "cs.IT"
+   ],
+   "title_A": [
+    "grassmann"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "In this article, we consider the affine Grassmann code $C^{\\mathbb A}(3,6)$, obtained from the affine open cell ${\\mathbb A}^9$ of the Grassmannian $G_{3,6}$. We exploit the representation of codewords as linear combinations of minors of all sizes of a generic $3\\times3$ matrix and classify them according to the largest size of a minor occurring with a nonzero coefficient. Using this classification, we determine all possible Hamming weights of codewords of $C^{\\mathbb A}(3,6)$ and, for each weight, compute the number of codewords attaining that weight. Consequently, we obtain the complete weight spectrum of the affine Grassmann code $C^{\\mathbb A}(3,6)$.",
+   "dateline": "[Submitted on 8 Sep 2026 (v1), last revised 9 Sep 2026 (this version, v2)]",
+   "abs_A": [
+    "grassmann"
+   ],
+   "abs_B": [],
+   "abs_C": [],
+   "level": "YELLOW"
+  },
+  {
+   "id": "2609.10274",
+   "title": "Revisiting the Weight Spectrum of the Affine Grassmann Code $C^{\\mathbb{A}}(2,m)$",
+   "authors": "Rohit Yadav",
+   "subjects": "Information Theory (cs.IT)",
+   "cats": [
+    "cs.IT"
+   ],
+   "title_A": [
+    "grassmann"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "Affine Grassmann codes, introduced by Beelen, Ghorpade and Høholdt, are linear codes over $\\mathbb{F}_q$ obtained by evaluating linear combinations of minors of a generic matrix. The weight spectrum of the affine Grassmann code $C^{\\mathbb{A}}(2,m)$ was determined by Piñero and Singh via a case analysis on the rank of an associated alternating matrix. We give an independent and more streamlined derivation, valid for all $m\\ge4$ and every prime power $q$, in which each codeword is written in a compact matrix form and its Hamming weight is expressed through a single closed formula involving two explicit affine subspaces and their intersection.",
+   "dateline": "[Submitted on 9 Sep 2026]",
+   "abs_A": [
+    "grassmann",
+    "subspace"
+   ],
+   "abs_B": [],
+   "abs_C": [],
+   "level": "YELLOW"
+  },
+  {
+   "id": "2608.28864",
+   "title": "OHL-Assisted All-Optical Regenerative Relaying for Pointing-Impaired M-PAM Inter-Satellite Links",
+   "authors": "Meysam Ghanbari, Mohammad Taghi Dabiri, Zain Ali, Rula Ammuri, Mazen Hasna, Iman Tavakkolnia, Khalid Qaraqe",
+   "subjects": "Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [],
+   "title_B": [
+    "generative"
+   ],
+   "title_C": [],
+   "abstract": "Rapid inter-satellite traffic growth in LEO constellations demands spectrally efficient, low-latency optical relaying. While amplify and forward (AF) relays are latency-efficient, they propagate noise; conversely, decode and forward (DF) relays suppress noise but incur significant complexity via O/E/O conversion. This paper proposes an all-optical regenerative relay for M-ary pulse amplitude modulation (M-PAM) multi-hop links under pointing errors. A parallel optical hard-limiter (OHL) bank performs symbol-level discrimination, regenerating signal levels directly in the optical domain. A variable gain EDFA is employed to stabilize power and define the threshold-stable region. By incorporating pointing-induced fading, various noise sources including ASE-ASE and signal-ASE beat noise and implementation-dependent decision noise, we derive closed-form per-hop symbol error rate (SER) expressions. These are extended to end-to-end performance using a Markov transition-matrix model for arbitrary modulation order and hop count. Analysis of beamwidth, pointing accuracy, and threshold scaling demonstrates reliable multi-hop operation, avoiding both AF noise accumulation and DF O/E/O processing overhead. Verified by Monte Carlo simulations and numerical integration, this framework provides a design benchmark for low-latency, pointing-aware all-optical regenerative relaying.",
+   "dateline": "[Submitted on 28 Aug 2026]",
+   "abs_A": [
+    "constellation"
+   ],
+   "abs_B": [
+    "generative"
+   ],
+   "abs_C": [],
+   "level": "BLUE"
+  },
+  {
+   "id": "2608.00050",
+   "title": "Identifiability-Aware Source Apportionment in City-Scale Advection-Diffusion Systems",
+   "authors": "Ankit Bhardwaj, Lakshminarayanan Subramanian",
+   "subjects": "Signal Processing (eess.SP); Computational Engineering, Finance, and Science (cs.CE); Machine Learning (cs.LG)",
+   "cats": [
+    "eess.SP",
+    "cs.LG"
+   ],
+   "title_A": [],
+   "title_B": [
+    "diffusion"
+   ],
+   "title_C": [],
+   "abstract": "Source apportionment from sparse urban air-quality sensors is an inverse problem limited by sensor placement, wind-driven transport, background variation, and noise. Known or proxy emission inventories make attribution meaningful by restricting the unknown source field to a finite set of candidate groups, but do not guarantee those groups are distinguishable from the observations. We represent time-varying source activity with a low-dimensional nonnegative temporal basis and formulate inventory-based apportionment as a wind-conditioned lagged inverse problem in which each source--basis coefficient produces a sensor-time fingerprint. After projecting out a separate low-dimensional background space, the relevant object is the projected lagged response matrix $\\widetilde H_\\Phi$: exact identifiability at the chosen basis resolution requires its full column rank, while noise-robust attribution is controlled by its singular values, coefficient visibility, background absorption, pairwise coherence, and ray distance. We propose an identifiability-aware apportionment (IASA) framework that estimates nonnegative source--basis coefficients, reconstructs activity trajectories, and reports uncertainty and conservative grouping recommendations for indistinguishable sources. We instantiate it on a New Delhi platform built from government PM$_{2.5}$ and wind records, regulatory sensor locations, and four proxy source groups, and define controlled and observed evaluations of recovery, ambiguity, wind diversity, background stress, transport error, inventory robustness, and residual adequacy. IASA reports the attribution resolution defensible under the declared inventories, transport, background, lag, and noise rather than the most detailed possible vector.",
+   "dateline": "[Submitted on 25 Jul 2026]",
+   "abs_A": [],
+   "abs_B": [],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.00156",
+   "title": "Generative Models for Modeling and Synthesizing MIMO Channels in Adverse Weather Conditions",
+   "authors": "Vignesh Nandakumar, Faraz Barati, Brian L. Evans",
+   "subjects": "Signal Processing (eess.SP); Machine Learning (cs.LG)",
+   "cats": [
+    "eess.SP",
+    "cs.LG"
+   ],
+   "title_A": [],
+   "title_B": [
+    "generative"
+   ],
+   "title_C": [],
+   "abstract": "The push for broader coverage in future cellular networks depends on reliable service, yet this is increasingly harder to do as we encounter more instances of extreme weather conditions. In extreme weather conditions, we have difficulty evaluating coverage due to limited access to channel measurements. In this paper, we generate channel state information (CSI) in low and moderate weather conditions to synthesize realistic MIMO CSI under adverse weather conditions. Our primary contributions are to (1) synthesize MIMO channel datasets incorporating three weather types, each with three intensity levels, representative of practical 5G/6G scenarios; (2) train a diffusion model conditioned on weather using channel samples obtained through conventional pilot-based estimation under low and moderate weather intensities, and subsequently use it to generate channel realizations for severe weather conditions; and (3) evaluate the downlink Bit Error Rate (BER) and Outage Probability measures using the generated channels. The results show that diffusion-based generative models provide a scalable, data-driven alternative for channel modeling in harsh environments and can generalize to severe weather conditions using only low- and moderate-intensity training data.",
+   "dateline": "[Submitted on 31 Jul 2026 (v1), last revised 24 Aug 2026 (this version, v2)]",
+   "abs_A": [],
+   "abs_B": [
+    "diffusion",
+    "generative"
+   ],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.01177",
+   "title": "Generative Adversarial Reconstruction with Adaptive Thresholding for Obstructed Targets in Computational Microwave Imaging",
+   "authors": "Jiaming Zhang, Maria Garcia-Fernandez, Guillermo Alvarez-Narciandi, Jie Zhang, Muhammad Ali Babar Abbasi, Okan Yurduseven",
+   "subjects": "Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [],
+   "title_B": [
+    "generative"
+   ],
+   "title_C": [],
+   "abstract": "In this work, an end-to-end generative adversarial framework for computational microwave imaging (CMI) is proposed to reconstruct the targets of interest directly from the measurements of targets obstructed by undesired objects. It integrates a conditional generative adversarial network (cGAN) with a learnable soft-threshold module (STM) to adaptively suppress non-target related information. The proposed framework is evaluated on a diverse dataset comprising MNIST digits obstructed by E-MNIST letters for training and testing, as well as on measurements acquired with an experimental CMI system. In addition, further studies involving objects with different geometries are conducted, demonstrating that the proposed approach can be adapted to other types of objects. Numerical experiments show that the proposed cGAN-STM achieves a normalized mean square error (NMSE) of 0.066 and a structural similarity index (SSIM) of 0.876 under ideal conditions. Comprehensive analyses, including benchmarking, analysis of the STM mechanism, and evaluation under different obstruction sizes, are also conducted. The performance of the model under different signal-to-noise ratio (SNR) scenarios is also evaluated, achieving reasonable reconstruction quality at 15 dB SNR with an NMSE of 0.168 and an SSIM of 0.700. Even at low SNR levels, recognizable target outlines are preserved. These results highlight the effectiveness and adaptability of the proposed method.",
+   "dateline": "[Submitted on 2 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "generative"
+   ],
+   "abs_C": [
+    "learn"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.01422",
+   "title": "QR-Erase: Efficient Subspace-Based Machine Unlearning with Layer Localization",
+   "authors": "Tyler Lizzo, Larry Heck",
+   "subjects": "Computation and Language (cs.CL); Machine Learning (cs.LG)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "subspace"
+   ],
+   "title_B": [],
+   "title_C": [
+    "learn"
+   ],
+   "abstract": "Machine unlearning seeks to remove targeted information from trained models without requiring costly retraining. Existing optimization-based methods often degrade unrelated capabilities, while subspace-based approaches rely on computationally expensive singular value decompositions (SVD). We introduce QR-Erase, a subspace-based framework that uses Pivoted QR decomposition to identify and remove task-specific representations directly from model parameters. We further propose Layer-Localized QR-Erase, which restricts updates to layers containing the highest concentration of task-specific information. We show that Pivoted QR provides accurate subspace recovery with bounded error, and that under a mild spectral gap condition, the recovered subspace approaches the optimal SVD solution. Across task-level, cross-lingual, and speech unlearning, QR-Erase achieves a stronger forgetting-retention tradeoff than optimization-based methods while remaining within 5% of SVD across all metrics. Exploiting low-rank and layer-localized structure further improves forgetting (for example, reducing speech forget-set accuracy from 53.1% to 15.7%). These results demonstrate that accurate subspace recovery, rather than optimal reconstruction, is sufficient for effective unlearning and provides an efficient and general alternative to SVD-based methods for modern foundation models.",
+   "dateline": "[Submitted on 2 Aug 2026]",
+   "abs_A": [
+    "subspace"
+   ],
+   "abs_B": [],
+   "abs_C": [
+    "learn"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.01840",
+   "title": "A Geometry-based Stochastic Wireless Channel Model using Generative Neural Networks",
+   "authors": "Seongjoon Kang",
+   "subjects": "Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [],
+   "title_B": [
+    "generative"
+   ],
+   "title_C": [
+    "neural"
+   ],
+   "abstract": "Due to the high complexity of geometry-deterministic wireless channel modeling and the difficulty in its implementation, geometry-based stochastic channel modeling (GBSM) approaches have been used to evaluate system performance of wireless communications. This paper introduces a new method to model a GBSM by training a generative neural network using images formed by channel parameters. Toward this end, we process the data of channel parameters in the form of images and train the generative neural networks where the convolutional layers are mainly employed to capture correlation among multipath components. Through a case study, we demonstrate that the use of channel images facilitates the training of the generative model and ensures that the model learns the correlations among multipath components. We show that the outputs of the generative model faithfully represent the joint distributions of the original data, and that the trained model reliably interpolates across held-out conditions not used during training, demonstrating its practical value as a data-efficient alternative to directly resampling the ray-tracing database. Furthermore, to corroborate applicability of the trained model, we run simple system-level simulations and show the results obtained from the trained model closely match those from the ray-tracing data. Therefore, the proposed model is expected to ease the burden of GBSM implementations with general wireless conditions and capture the statistical joint distributions of the original channel data.",
+   "dateline": "[Submitted on 3 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "generative"
+   ],
+   "abs_C": [
+    "learn",
+    "neural"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.03293",
+   "title": "Prior-Aided Iterative Channel Reconstruction with Optimized Frame Structure for DSE Mitigation in CP-OTFS-Based LEO Satellite Systems",
+   "authors": "Yiyan Cheng, Tiejun Lv, Yashuai Cao, Xuehan Wang, Mugen Peng",
+   "subjects": "Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [],
+   "title_B": [
+    "prior"
+   ],
+   "title_C": [],
+   "abstract": "Orthogonal time frequency space (OTFS) modulation has emerged as a promising solution to mitigate the severe Doppler shift in low Earth orbit (LEO) satellite communications. However, the frequency-dependent Doppler shift induced by the high mobility of LEO satellites leads to the Doppler squint effect (DSE). This effect compromises the channel sparsity in the delay-Doppler (DD) domain, rendering existing channel estimation methods ineffective. To overcome this challenge, this paper proposes a DSE-resilient transmission scheme for cyclic prefix OTFS (CP-OTFS)-based LEO satellite systems. Specifically, we analyze the input-output relationship of the CPOTFS- based LEO satellite communication system and derive a DSE-aware representation of the satellite-terrestrial channel in the DD domain. To efficiently capture DSE-aware channel characteristics, we propose a novel OTFS frame structure that allows the energy distribution of the received signal to serve as prior information for channel estimation. Meanwhile, this frame structure strategically allocates pilot symbols to achieve uniform energy distribution and reduce the peak-to-average power ratio (PAPR), while imposing a time-domain waveform continuity constraint to suppress out-of-band emission (OOBE) caused by rectangular pulses. Based on the frame structure, we propose a prior-aided iterative channel reconstruction (PAICR) algorithm to mitigate the severe power leakage induced by DSE. The proposed algorithm iteratively extracts and removes dominant channel components using Doppler-domain received signal energy observations, with a convergence criterion ensuring reliable termination. Furthermore, a Cramer-Rao lower bound is derived to provide a theoretical benchmark for evaluating the algorithm's performance.",
+   "dateline": "[Submitted on 4 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "prior"
+   ],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.03436",
+   "title": "FedRings: A Scalable and Topology-Aware Federated Learning Framework for LEO Satellite Constellations",
+   "authors": "Ziwu Liu, Inês Pinto Gouveia, Rehana Yasmin, Paulo Esteves-Verissimo, Ali Shoker",
+   "subjects": "Distributed, Parallel, and Cluster Computing (cs.DC); Machine Learning (cs.LG)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "constellation"
+   ],
+   "title_B": [],
+   "title_C": [
+    "learn"
+   ],
+   "abstract": "Federated learning over low Earth orbit (LEO) satellite networks is limited by frequent link changes, short contact times, and a highly dynamic topology, making centralized or synchronized training inefficient and hard to scale. To address this, we propose FedRings, a decentralized framework that organizes satellites into ring-based communication structures. It uses a spatio-temporal routing strategy with link-aware communication scheduling to align model exchange with actual visibility windows and time-varying connectivity patterns in LEO. Model updates are propagated along the ring using adaptive sparse incremental aggregation, which reduces communication overhead by progressively combining and compressing updates. To handle communication interruptions, a historical compensation mechanism maintains training continuity. By combining topology-aware routing, communication scheduling, and efficient aggregation, FedRings enables stable and efficient learning in dynamic LEO networks while reducing communication cost, and experiments show it consistently outperforms existing methods in realistic settings.",
+   "dateline": "[Submitted on 4 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [],
+   "abs_C": [
+    "learn"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.03579",
+   "title": "Pin Once, Swap Light: Subspace-Aligned Centroid-Residual Training for Efficient Ultra-LoRA Serving",
+   "authors": "Xiang Li, Pengcheng Wang, Huazheng Wang, Saurabh Bagchi",
+   "subjects": "Machine Learning (cs.LG); Artificial Intelligence (cs.AI)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "subspace"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "Modern multi-tenant Low-Rank Adapters (LoRAs) serving systems concurrently host tens to hundreds of LoRA adapters. Though powerful, this introduces a critical system dilemma between serving efficiency and task performance: higher-rank adapters generally achieve better downstream task performance, but their GPU VRAM footprint and Host-to-Device PCIe swapping overhead severely constrain scalability. Conversely, ultra-low-rank adapters ($r \\le 2$) minimize both VRAM footprint and PCIe transfer overhead, but suffer from downstream task performance degradation. To solve this problem, we propose Subspace-Aligned LoRA Training (SALT), a serving efficiency-aware hierarchical fine-tuning framework. Our solution operates in three phases. First, a provider jointly trains high-capacity domain centroids on public data within the domain using a novel alignment regularizer that coheres in-domain task subspaces into a unified basis. Next, users fine-tune ultra-low-rank task residual adapters on private data atop those frozen centroids. Finally, during inference, the provider pins the centroid in GPU VRAM and dynamically swaps in each user's task residual on demand. Across LLMs of varying scales, SALT recovers high-rank accuracy using $r \\le 2$ residuals, achieving up to 18.5% absolute accuracy gains over state-of-the-art compression baselines and reducing per-adapter memory by up to 16x. When integrated into vLLM, SALT improves serving throughput by up to 51% under PCIe bandwidth pressure and 28% under GPU VRAM constraints for Llama-3.2-3B.",
+   "dateline": "[Submitted on 4 Aug 2026]",
+   "abs_A": [
+    "subspace"
+   ],
+   "abs_B": [],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.04465",
+   "title": "Jointly Sparse Blind Deconvolution via Riemannian Optimization",
+   "authors": "Wenlong Wang, Baiyang Guo, Zai Yang, Shixiang Chen, Junpeng Shi",
+   "subjects": "Optimization and Control (math.OC); Information Theory (cs.IT)",
+   "cats": [
+    "cs.IT"
+   ],
+   "title_A": [],
+   "title_B": [
+    "riemannian"
+   ],
+   "title_C": [],
+   "abstract": "Blind deconvolution has been widely applied in system identification and signal processing. While joint sparsity commonly arises in practical scenarios, effectively exploiting this structure to enhance recovery performance remains a challenging and largely open problem. In this paper, we propose a joint-sparsity-promoting optimization problem and develop a Riemannian optimization algorithm for its accurate and efficient solution. We further establish theoretical guarantees that characterize the non-asymptotic relationship between the estimation error and the sample complexity, showing that exploiting joint sparsity can significantly reduce the sample complexity required for successful recovery. Numerical experiments are provided that validate the theoretical results and demonstrate the effectiveness of the proposed approach.",
+   "dateline": "[Submitted on 5 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "riemannian"
+   ],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.04863",
+   "title": "Prior-Based Multi-Voltage Threshold Sampling as a Structured Inverse Problem",
+   "authors": "Ao Qiu, Qingguo Xie",
+   "subjects": "Medical Physics (physics.med-ph); Signal Processing (eess.SP); Instrumentation and Detectors (physics.ins-det)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [],
+   "title_B": [
+    "prior"
+   ],
+   "title_C": [],
+   "abstract": "Prior-based Multi-Voltage Threshold (MVT) sampling reconstructs pulse parameters from sparse threshold-crossing times rather than full waveforms, making parameter recovery inherently a model-dependent inverse problem. However, prior-based MVT has lacked a formal mathematical statement, leaving identifiability, stochastic error propagation, and threshold design without a unified theoretical foundation. We formalize prior-based MVT for strictly unimodal pulse families as a structured inverse problem. On that foundation, we develop the first unified theory of prior-based MVT, comprising deterministic identifiability conditions, a stochastic timing-error model with leading-order mismatch bias, and a nuisance-profiled threshold-design theory centered on an effective-information equation for robust single-event and partial-trigger multi-event operation. We instantiate the framework for the bi-exponential pulse model, derive executable design recipes, and validate the resulting predictions on a 10,000-pulse $^{22}$Na/LYSO/SiPM dataset. The experiments confirm that the framework yields useful threshold designs in the photopeak regime while also revealing the regime boundary at which partial triggering and model mismatch limit the predictive power of Fisher-guided optimization. These results provide the first unified mathematical foundation for prior-based MVT and recast it from an empirical threshold heuristic as a principled inferential framework.",
+   "dateline": "[Submitted on 5 Aug 2026 (v1), last revised 6 Aug 2026 (this version, v2)]",
+   "abs_A": [],
+   "abs_B": [
+    "prior"
+   ],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.04891",
+   "title": "GVC-RT: Towards Real-Time Generative Video Compression at Ultra-Low Bitrates",
+   "authors": "Tianjian Dang, Sixian Wang, Lei Luo, Guo Lu, Jincheng Dai",
+   "subjects": "Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [],
+   "title_B": [
+    "generative"
+   ],
+   "title_C": [],
+   "abstract": "Recent generative video codecs (GVCs) have achieved impressive reconstruction fidelity at ultra-low bitrates (< 0.02 bits per pixel) by compressing the tokens from generative tokenizers. However, existing GVCs generally require considerable computation time and model complexity, which hinder their deployment on compute-limited devices and in real-time applications. To bridge this gap, we systematically identify the computational bottlenecks and propose GVC-RT, which redesigns the generative latent coding framework to realize real-time video coding without sacrificing compression performance. Specifically, built on a pretrained lookup-free quantization (LFQ) tokenizer, GVC-RT adopts an asymmetric architecture that directly learns to match the LFQ latent distribution, while generative-space alignment is enforced via a regularization loss term only during training. In this manner, we bypass heavy tokenization and entirely remove the complex feature-alignment process at inference time. Moreover, we further introduce a lightweight de-tokenizer architecture to resolve the final latency bottleneck during decoding. Experimental results demonstrate that GVC-RT outperforms the previous SOTA model, GLC-Video, with average BD-rate savings of 12.4% and 48.8% in terms of DISTS and LPIPS, while achieving encoding/decoding speeds of 123.1/55.1 fps for 1080p video. The code is at this https URL.",
+   "dateline": "[Submitted on 5 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "generative"
+   ],
+   "abs_C": [
+    "learn"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.05112",
+   "title": "Stable Density Ridges: Consistency and Convergence of Subspace Constrained Mean Shift",
+   "authors": "Wanli Qiao",
+   "subjects": "Machine Learning (stat.ML); Machine Learning (cs.LG)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "subspace"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "The Subspace Constrained Mean Shift (SCMS) algorithm is a popular nonparametric method for extracting density ridges, which serve as a low-dimensional representation of high-dimensional data. It is a widely held belief in the literature that SCMS trajectories converge to the classical density ridge, which we call the \"static ridge\", defined via the density gradient and the eigenvalues and eigenvectors of the density's Hessian. In this paper, we demonstrate that this assumption does not hold in general, as the static definition fails to account for the rotation of the trailing eigenspace along the continuous flow of the algorithm's underlying vector field. To resolve this, we propose a paradigm shift by introducing the \"stable ridge\", a novel geometric structure defined through the lens of dynamical systems and the Jacobian of the projected density gradient. We prove that this stable ridge is the true theoretical target of the SCMS algorithm. Building upon this foundation, we develop a generalized SCMS framework utilizing a constant step size, establishing its uniform R-linear convergence and topological surjectivity onto the stable ridge. We further derive the rates of convergence for estimating the stable ridge in terms of the Hausdorff distance. Finally, we expose that the original SCMS algorithm suffers from polynomial-time computational complexity, which is caused by implicitly coupling the step size to the smoothing bandwidth via the Mean Shift operator, and demonstrate how our generalized framework provides a statistically consistent and more efficient solution.",
+   "dateline": "[Submitted on 5 Aug 2026]",
+   "abs_A": [
+    "subspace"
+   ],
+   "abs_B": [],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.07928",
+   "title": "Parametric Electromagnetic Information: Field-Manifold Geometry and the Stability of Learned Field Representations",
+   "authors": "Marco Donald Migliore",
+   "subjects": "Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [],
+   "title_B": [
+    "manifold"
+   ],
+   "title_C": [
+    "learn"
+   ],
+   "abstract": "In many electromagnetic systems, the set of radiated or scattered fields is controlled by only a few physical parameters and therefore forms a low-dimensional manifold embedded in a high-dimensional observation space. This paper extends Electromagnetic Information Theory (EIT) to such parametric field families by separating two descriptors that classical linear NDF analysis merges: the Electromagnetic Intrinsic Dimension (EID), $d$, which counts the locally independent directions of field variation, and the Metric Stretching Exponent, $\\nu$, which governs the electrical-size scaling of the intrinsic metric volume. Using Kolmogorov $\\varepsilon$-entropy and $\\varepsilon$-capacity, we derive lower bounds showing that stable non-linear representations depend not only on dimension but also on metric-volume growth, which reappears as a decoder-sensitivity burden. Under additive Gaussian noise, the pullback metric is proportional to the Fisher Information Matrix, linking the same geometry to Cramér--Rao estimation bounds. Physics-constrained autoencoders provide an operational estimate of the latent dimension required to achieve a prescribed reconstruction accuracy and an empirical proxy for the associated normalized decoder sensitivity. Array and scattering benchmarks show that systems with the same intrinsic dimension can exhibit different metric-growth laws depending on the physical modulation or scattering regime, while a dedicated steering-arc experiment provides finite-sample evidence that the best observed decoder-sensitivity proxy scales nearly linearly with metric length across electrical apertures, consistently with the predicted lower-bound trend.",
+   "dateline": "[Submitted on 8 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "manifold"
+   ],
+   "abs_C": [
+    "autoencoder"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.09053",
+   "title": "Diagnosing as Cardiologists Do: ECG Agents with Doctor-Grounded Priors for Clinical Reasoning Across Diseases and Populations",
+   "authors": "Hongxiang Gao, He-yang Xu, Yuwen Li, Minghui Zhao, Zhipeng Cai, Xingyao Wang, Chenxi Yang, Jianqing Li, Chengyu Liu",
+   "subjects": "Signal Processing (eess.SP); Computer Vision and Pattern Recognition (cs.CV); Machine Learning (cs.LG)",
+   "cats": [
+    "eess.SP",
+    "cs.LG"
+   ],
+   "title_A": [],
+   "title_B": [
+    "prior"
+   ],
+   "title_C": [],
+   "abstract": "Cardiologists interpret electrocardiograms by localizing waveform components, measuring rhythm and interval patterns, and translating these structured observations into diagnostic evidence. Whether this expert reading process can serve as an effective prior for ECG agents remains unclear. To address this question, we introduce LuminaECG, a clinically structured ECG reasoning framework that reformulates ECG interpretation as measurement-grounded visual reading. ECG signals are rendered on standard electrocardiographic grid paper to preserve the spatial and scale cues used in clinical reading. P-wave, QRS-complex, and T-wave boundaries are explicitly delineated, and color-coded segmentation decomposes the waveform into discrete visual measurement primitives. A general 2B vision-language backbone is then trained with low-rank supervised fine-tuning to associate these primitives with diagnostic reasoning, without architectural modification. Across open, proprietary, and ECG-specialist zero-shot baselines, LuminaECG improves both waveform measurement and diagnostic recovery. It reaches a clinically meaningful reader tier on the CODE-test benchmark, transfers across geographically diverse ECG datasets without retraining, and generates reports whose structure contains an emergent prognostic signal. These findings suggest that effective ECG agents require not only larger models, but supervision that preserves the alignment between measurable waveform evidence and clinical knowledge.",
+   "dateline": "[Submitted on 10 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "prior"
+   ],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.09165",
+   "title": "Optimal Movable-Antenna Control for Multi-Path Sensing Guided by Prior AoA Statistic",
+   "authors": "Jaehong Kim, Changsheng You, Jihong Park, Seung-Woo Ko",
+   "subjects": "Information Theory (cs.IT)",
+   "cats": [
+    "cs.IT"
+   ],
+   "title_A": [],
+   "title_B": [
+    "prior"
+   ],
+   "title_C": [],
+   "abstract": "Multi-path sensing, which aims to extract the geometric attributes of multiple propagation paths, is expected to be a key functionality of 6G. A movable antenna (MA) can enable this functionality by synthesizing an aperture through mechanical motion. However, existing MA-based sensing methods typically rely on exhaustive scanning over the entire movable region, resulting in significant control overhead and sensing latency, which limit their practicality for agile sensing. To address this challenge, this paper develops a prior-guided agile multi-path sensing framework that leverages weak prior angle-of-arrival (AoA) statistics as side information. The proposed framework is built on two key steps. First, the movable plate's three-dimensional orientation is optimized only once to configure a mechanically feasible scan region that enhances path visibility while preserving inter-path discriminability, guided by Fisher information analysis. Second, given the optimal plate orientation, the MA performs only two linear scans, whose non-collinear spatial phase projections are fused with the prior AoA statistics through a maximum a posteriori (MAP)-based estimator to recover the elevation and azimuth AoAs of multiple paths. The estimated AoAs are subsequently used to extract the times-of-arrival (ToAs) by enhancing the target path component while suppressing interference from other paths. With only one orientation adjustment and two linear scans, the proposed framework enables agile multi-path sensing with significantly reduced control overhead and latency, while achieving AoA and ToA estimation accuracy close to the single-path benchmark.",
+   "dateline": "[Submitted on 10 Aug 2026 (v1), last revised 13 Aug 2026 (this version, v2)]",
+   "abs_A": [],
+   "abs_B": [
+    "prior"
+   ],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.09499",
+   "title": "CSI Reconstruction in Fluid Antenna Systems Without Spatial Covariance Priors",
+   "authors": "Zhentian Zhang, Kaitao Meng, Tuo Wu, Kai-Kit Wong, Hao Xu, Liang Liu, Pei Xiao, Chao Wang, Kin-Fai Tong",
+   "subjects": "Information Theory (cs.IT)",
+   "cats": [
+    "cs.IT"
+   ],
+   "title_A": [],
+   "title_B": [
+    "prior"
+   ],
+   "title_C": [],
+   "abstract": "Fluid antenna systems (FASs) exploit many candidate ports for spatial diversity, but hardware constraints allow channel observations at only a few active ports. Whether full-port CSI can be recovered without pre-acquired channel statistics remains open. Under the Clarke isotropic scattering model, we show that the channel lies in a low-dimensional spatial modal subspace determined by the scattering environment rather than the total port count. Consequently, recovery becomes feasible when the number of observed ports reaches the modal dimension (i.e., $M\\geq r$), even when $M\\ll N$. We further establish a sharp feasibility threshold: reliable recovery is impossible below this dimension regardless of SNR, whereas accuracy improves with additional observations above it. By decomposing the recovery error into modal truncation, estimation, and learning components, we derive explicit tradeoffs among RF chains, pilot overhead, transmit power, and training data. These results enable scalable prior-free full-port CSI recovery with few active ports.",
+   "dateline": "[Submitted on 10 Aug 2026]",
+   "abs_A": [
+    "subspace"
+   ],
+   "abs_B": [
+    "prior"
+   ],
+   "abs_C": [
+    "learn"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.09687",
+   "title": "FedOrbit: Adaptive Personalized Federated Learning for Non-IID LEO Satellite Constellations",
+   "authors": "Satwat Bashir, Tasos Dagiuklas, Muddesar Iqbal",
+   "subjects": "Machine Learning (cs.LG)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "constellation"
+   ],
+   "title_B": [],
+   "title_C": [
+    "learn"
+   ],
+   "abstract": "Federated learning (FL) in Low Earth Orbit (LEO) satellite constellations is affected by non-IID data and irregular ground-station visibility, both driven by orbital geometry. Global aggregation performs poorly when orbit-level class distributions are disjoint, while strong personalisation can be excessive when these distributions overlap. We present FedOrbit, which combines continuous orbit-level training over inter-satellite links, class-aware hierarchical aggregation, quality-weighted feature aggregation with return-rate dampening, and adaptive feature decomposition based on inter-orbit class similarity. Across three remote-sensing benchmarks and two non-IID partitions, FedOrbit achieves the highest accuracy in five of six settings and is within $0.9$ percentage points of the best result in the sixth. The gains over the strongest baseline reach $16.1$ percentage points under Dirichlet partitioning and $8.6$ under pathological partitioning, with the smallest per-orbit accuracy spread in five of six settings.",
+   "dateline": "[Submitted on 10 Aug 2026]",
+   "abs_A": [
+    "constellation"
+   ],
+   "abs_B": [],
+   "abs_C": [
+    "learn"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.09774",
+   "title": "C$^2$A: Coupling Spatial Evidence with Clinical Priors via Co-occurrence Aware Class Attention for Multi-Label Chest X-Ray Classification",
+   "authors": "Akash Gogineni, Nagur Shareef Shaik, Aasrith Mandava, Adnan Masood, Dong Hye Ye",
+   "subjects": "Computer Vision and Pattern Recognition (cs.CV); Machine Learning (cs.LG); Image and Video Processing (eess.IV); Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP",
+    "cs.LG"
+   ],
+   "title_A": [],
+   "title_B": [
+    "prior"
+   ],
+   "title_C": [],
+   "abstract": "Thoracic pathologies rarely occur in isolation, yet standard multi-label classifiers rely on shared global descriptors, discarding \\emph{where} findings lie and \\emph{how} they co-occur. We propose \\textbf{C$\\mathbf{^2}$A} (Co-occurrence Aware Class Attention), a classification head that explicitly couples spatial evidence with clinical priors. First, C$^2$A casts pooling as an expectation over learned per-class spatial attention maps, yielding localized descriptors for each disease. Second, it couples these descriptors via a learnable graph warm-started from empirical label co-occurrence. A single residual message-passing step shares evidence among related findings, proving to be a bounded perturbation of the identity where co-occurrence enters each logit through an explicit bilinear interaction. On CheXpert, C$^2$A achieves a superior $0.895$ macro-mean AUROC, outperforming advanced context-gating baselines. Crucially, gains concentrate on highly co-occurrent classes with ambiguous spatial evidence (rescuing Atelectasis by $+1.5$ over GCG), demonstrating the prior's regularizing effect with a negligible overhead of one linear projection and a $C\\!\\times\\!C$ edge matrix.",
+   "dateline": "[Submitted on 10 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "prior"
+   ],
+   "abs_C": [
+    "learn"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.11249",
+   "title": "Diffuse to Compress: Leveraging Diffusion LMs for Lossless Compression",
+   "authors": "Angelo Nardone, Paolo Ferragina",
+   "subjects": "Computation and Language (cs.CL); Artificial Intelligence (cs.AI); Information Theory (cs.IT); Machine Learning (cs.LG)",
+   "cats": [
+    "cs.IT",
+    "cs.LG"
+   ],
+   "title_A": [],
+   "title_B": [
+    "diffusion"
+   ],
+   "title_C": [],
+   "abstract": "We study the problem of lossless text compression, motivated by the rapid growth in the collection and storage of digital textual data - including plain text, source code, and structured formats such as XML - and by recent advances in neural language model-based compression. In particular, recent LLM-based approaches, whether built on symbol-ranking pipelines or paired with a statistical compressor, have demonstrated compression ratios significantly superior to general-purpose compressors such as zstd, gzip, or bzip on text and code. However, these neural approaches suffer from severe throughput limitations, making them not yet practically usable. For the first time in the context of lossless neural text compression, we introduce Diffusion Language Models (DLMs) as an alternative inference paradigm to autoregressive LLM-based approaches. We argue that replacing autoregressive LLMs with DLMs within the same compression framework could overcome the throughput bottleneck caused by their one-symbol-per-step limitation. However, achieving these improvements requires addressing algorithmic challenges introduced by applying DLMs to lossless compression, where the architecture allows the number and positions of symbols encoded at each forward pass to be decided independently. We design efficient and effective strategies to solve these challenges and evaluate them experimentally against LLM-based and general-purpose compressors on enwik8, a well-established textual benchmark. Our results show that the newly proposed DLM-based framework advances the state of the art in lossless text compression. Moreover, as DLMs are still a relatively young paradigm, recent advances toward increasingly capable and efficient models suggest substantial room for further improvements.",
+   "dateline": "[Submitted on 4 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "diffusion"
+   ],
+   "abs_C": [
+    "neural"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.11674",
+   "title": "GCPO: Diagnosing and Constraining Subspace Geometry in Rollout RL for LLMs",
+   "authors": "Kai Yang, Jingwei Xu, Wanyu Wang, Kai-Yuan Guo, Zhenbo Yu, Yi Wang, Yu Qiao",
+   "subjects": "Machine Learning (cs.LG); Artificial Intelligence (cs.AI)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "subspace"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "On-policy rollout methods such as GRPO are central to post-training of large language models, yet they frequently suffer from training instabilities, cross-task capability degradation, and response-length inflation. Although prior work has characterized the subspace geometry of aggregate updates, the stepwise variation of this geometry and its relationship to model performance remain unclear. We introduce Principal-Subspace Overlap, a dimension-corrected measure of individual rollout updates relative to the dominant singular subspaces of pretrained weights. Despite low average overlap, transient spikes often precede performance degradation. To address this, we propose GCPO (Geometrically Constrained Policy Optimization), which applies hard bilateral orthogonal projections to constrain updates to the complementary subspaces, preventing such excursions by construction. Across mathematical reasoning, code generation, and tool-use tasks on Qwen3-8B and GLM4-9B, GCPO consistently outperforms GRPO and recent variants, including DAPO and GSPO, improving over the base models and the strongest baseline by up to 27.69 and 2.37 points, respectively. Furthermore, GCPO preserves general capabilities, eliminates response-length inflation, and stabilizes policy entropy. Our findings provide a new diagnostic lens and a principled design perspective for stable reinforcement learning post-training.",
+   "dateline": "[Submitted on 12 Aug 2026]",
+   "abs_A": [
+    "subspace"
+   ],
+   "abs_B": [
+    "prior"
+   ],
+   "abs_C": [
+    "learn"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.12159",
+   "title": "The Optimal Discounting Parameter of the Power Prior under Predictive Log-Loss",
+   "authors": "Yuriy A. Reznik",
+   "subjects": "Information Theory (cs.IT)",
+   "cats": [
+    "cs.IT"
+   ],
+   "title_A": [],
+   "title_B": [
+    "prior"
+   ],
+   "title_C": [],
+   "abstract": "The power prior of Ibrahim and Chen incorporates historical data into a Bayesian analysis by raising the historical likelihood to a power $a_0 \\in [0, 1]$. The choice of the exponent has remained an open question. This paper gives a closed-form answer under the predictive log-loss. For a model with $d$ parameters, a historical sample of size $N_0$, and average Kullback--Leibler divergence $\\bar{D}_0$ between the historical and current data-generating distributions, the optimal exponent is $a_0^{*} = d/(2 N_0 \\bar{D}_0 + d)$. Equivalently, the optimally borrowed effective sample size obeys the harmonic law $1/E^{*} = 1/N_0 + 2\\bar{D}_0/d$: compatible data are pooled in full, and any difference caps the borrowed information at $d/(2\\bar{D}_0)$ observations. The result is exact for multinomial data and extends to smooth parametric families. The law benchmarks adaptive borrowing, explains the reported degeneracy of the normalized power prior, and shows that neither subsetting the data nor decaying the exponent improves on the correctly discounted constant.",
+   "dateline": "[Submitted on 12 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "prior"
+   ],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.13253",
+   "title": "Resource-efficient Semantic Coding Schemes with Manifold-constrained Hyper-connections",
+   "authors": "Jingwen Fu, Ming Xiao",
+   "subjects": "Information Theory (cs.IT); Image and Video Processing (eess.IV)",
+   "cats": [
+    "cs.IT"
+   ],
+   "title_A": [],
+   "title_B": [
+    "manifold"
+   ],
+   "title_C": [],
+   "abstract": "Semantic communication (SemCom) and task-oriented communication (TOC) can reduce wireless resource consumption by focusing on transmitting semantic or task-relevant information instead of raw messages. In practice, a main challenge is to make transmitting information robust to channel noise and fading while keeping it compact. Existing learning-based transceivers often improve reliability by using larger encoders or higher-dimensional channel features, which increase computation complexity and channel uses. Therefore, optimized system design needs explicit rate control to balance performance and transmitting resources e.g., bandwidth and power. For this purpose, we propose a manifold-constrained hyper-connection (mHC) coding scheme with an entropy bottleneck (EB) for resource-efficient SemCom and TOC over wireless channels. Instead of using a single residual path of existing encoders, the proposed mHC-based semantic encoder applies multiple residual streams and constrains their interaction by doubly stochastic (DS) mixing matrices. The new structure improves representation diversity and training stability with negligible parameter and floating-point overhead. The EB quantizes the channel features and estimates the entropy-coded rate, enabling end-to-end rate--distortion/task optimization under bandwidth and transmit-power constraints. We further show that DS-constrained stream mixing does not increase the differential entropy of the transmitted features. This implies no increase in the ideal EB coding length. Experiments on SemCom and TOC under additive white Gaussian noise (AWGN), Rayleigh fading, Rician fading, and imperfect channel state information (CSI) show that the proposed scheme improves semantic/task performance, communication robustness, and convergence stability over residual and unconstrained HC baselines, while requiring no additional channel uses.",
+   "dateline": "[Submitted on 13 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "manifold"
+   ],
+   "abs_C": [
+    "learn"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.13520",
+   "title": "The data geometry of masking diffusion: Certified-optimal schedules via unmasking growth complexity",
+   "authors": "Martin J. Wainwright",
+   "subjects": "Machine Learning (cs.LG); Artificial Intelligence (cs.AI); Information Theory (cs.IT); Statistics Theory (math.ST); Machine Learning (stat.ML)",
+   "cats": [
+    "cs.IT",
+    "cs.LG"
+   ],
+   "title_A": [],
+   "title_B": [
+    "diffusion"
+   ],
+   "title_C": [],
+   "abstract": "We study masking diffusion for discrete sampling and introduce a path-resolved measure of data geometry called the \\emph{unmasking growth complexity} ({\\textsf{UGC}\\xspace}). Its local increments directly control Kullback--Leibler (KL) discretization error, yielding a unified analysis of Bernoulli-subset and fixed-cardinality unmasking schemes. In log-reveal-odds coordinates, this structure yields optimized single-block and multi-block schedules, and quantifies the gains from adapting computational effort to data geometry. Crucially, we show how {\\textsf{UGC}\\xspace} increments can be estimated from samples via KL increments along coupled reveal trajectories. This leads to \\emph{certified-optimal} samplers that achieve a prescribed KL error with high probability and iteration complexity within a constant factor of the corresponding oracle procedure. Collapsing the \\ugc path yields the aggregate {\\textsf{UGC}\\xspace} mass, which connects to classical multivariate dependence measures and complexity measures from previous analyses of discrete diffusion. In the fine-partition limit, the squared integral of the square-root {\\textsf{UGC}\\xspace} density determines the sharp leading-order optimal Euler discretization error. Examples exhibit substantial dimension-dependent gains over coarse schedules, including $\\widetilde{\\Omega}(\\sqrt{d})$ improvements achievable with a constant number of adaptively placed blocks.",
+   "dateline": "[Submitted on 13 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "diffusion"
+   ],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.13611",
+   "title": "SN-ASMO: Satellite-Navigation Array Spatial-Manifold Precise Observation Theory A Mathematical Foundation for Observation Formation, Unified U(1) Geometry, Intrinsic Information, and Preservation of the RTK Integer Structure",
+   "authors": "Xianwei Meng",
+   "subjects": "Information Theory (cs.IT)",
+   "cats": [
+    "cs.IT"
+   ],
+   "title_A": [],
+   "title_B": [
+    "manifold"
+   ],
+   "title_C": [],
+   "abstract": "Suppressive interference, high-dynamic motion of the receiving platform, and carrier-phase RTK lead satellite navigation to one fundamental question: when the receiver actively participates in observation formation through its array geometry, channel states, weights, and signal-processing rules, how can the resulting carrier observation continue to represent the same objective propagation process while preserving continuous phase and the integer-ambiguity structure? The physical world is not changed by a reconfiguration of the observer, but its complex representation in the observation world is. Without a strict separation between propagation-induced and observer-induced variations, anti-jamming, high dynamics, and precise carrier-phase positioning become structurally coupled at the observation-formation level. Finally, reproducible and falsifiable protocols are provided for static interference, dynamic rotation, inter-branch timing mismatch, near-null response, RF replay, and RTK integer-risk validation. The scoped novelty of SN-ASMO is the unification of observation formation, reference covariance, exact nuisance quotients, same-source transport, intrinsic statistical information, and preservation of the RTK integer structure in one mathematically closed and physically testable framework.",
+   "dateline": "[Submitted on 12 Aug 2026 (v1), last revised 28 Aug 2026 (this version, v2)]",
+   "abs_A": [],
+   "abs_B": [],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.14215",
+   "title": "Connected Subspace Clustering: Hardness, a Scalable Heuristic, and an Application to Sea Level Geodesy",
+   "authors": "Johanna Hillebrand, Jan Höckendorff, Jürgen Kusche, Kelin Luo, Heiko Röglin, Melanie Schmidt, Christian Sohler, Bernd Uebbing",
+   "subjects": "Machine Learning (cs.LG)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "subspace"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "Constrained optimization extends classical optimization by integrating side information, making it widely applicable across scientific and engineering domains. Consider a setting where we measure variables at different physical locations. When grouping these measurements, we often want clusters that are both internally similar and physically coherent. Thus, we have a constrained clustering problem where the constraint models coherence. Motivated by an application in geodesy, where contiguous regions of the sea surface must be identified for principal component analysis, we introduce the Connected Subspace Clustering problem: given high-dimensional points and a connectivity graph, partition them into $k$ connected clusters, minimizing their total squared distance to the clusters' best-fit $m'$-dimensional affine subspaces. We prove that, even for $m' = 0$ and a grid graph with holes, the problem is NP-hard to approximate within $\\Omega(n^{1/2-\\varepsilon})$ for every $\\varepsilon>0$, where $n$ is the number of measurements. We then introduce an efficient Lloyd-style heuristic that alternates subspace fitting with an iterative merging procedure to enforce connectivity. Our method returns exactly $k$ connected regions by construction, whereas unconstrained methods leave up to $1{,}966$ disconnected fragments at higher cost. In a study of 160 configurations on global sea level time series, our merging-based repair is the strongest of four strategies in $73.75\\%$ of cases, and consistently outperforms competitors such as (connected) Ward's method across all tested cluster counts. The resulting regions isolate signals aligning with climate indices such as the El Nino-Southern Oscillation and Indian Ocean Dipole. Although developed for geodesy, the approach applies to other spatially embedded multivariate time series, such as climate fields, remote sensing, neuroimaging, and sensor networks.",
+   "dateline": "[Submitted on 14 Aug 2026]",
+   "abs_A": [
+    "subspace"
+   ],
+   "abs_B": [],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.14280",
+   "title": "LLM-Assisted LDPC Decoding via Syndrome-Verified Semantic Priors",
+   "authors": "Sojeong Park, Hyeonsu Lyu, Jaehyun Choi, Hyun Jong Yang",
+   "subjects": "Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [],
+   "title_B": [
+    "prior"
+   ],
+   "title_C": [],
+   "abstract": "Semantic communication exploits the meaning of the payload, which bit-level processing discards. When channel decoding fails on a natural language payload, the errors appear as corrupted characters in the recovered text. A large language model (LLM) infers the intended characters from the semantic context, but it can also produce incorrect corrections. Applying them directly introduces new bit errors when the LLM modifies characters incorrectly. In this paper, we propose an LLM-assisted decoding framework for low-density parity-check (LDPC) codes. Rather than trusting LLM predictions, the decoder evaluates the modified characters jointly against the parity-check constraints and admits only the accepted corrections as verified semantic priors. These priors are injected as soft updates to the channel log-likelihood ratios, preserving the original channel evidence without modifying the decoder. A subsequent belief propagation pass distributes the injected evidence across the check nodes, recovering not only the injected bits but also the residual errors that the LLM fails to correct. Simulations demonstrate a 73% bit error rate reduction over a conventional decoder at 2.0 dB, whereas doubling its iterations to the same budget yields only 21%. The verification maintains an injection precision above 0.88 despite inaccurate LLM predictions, demonstrating that semantic knowledge can be reliably translated into physical-layer reliability gains.",
+   "dateline": "[Submitted on 14 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "prior"
+   ],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.14655",
+   "title": "Diagnosing and Mitigating Perception-Decision Misalignment in Omni-LLMs via Modality Subspace Activation",
+   "authors": "Hongbo Jiang, Jie Li, Yunhang Shen, Tianyu Xie, Pingyang Dai",
+   "subjects": "Machine Learning (cs.LG); Computer Vision and Pattern Recognition (cs.CV)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "subspace"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "Omni-Large Language Models (Omni-LLMs) power complex multi-modal reasoning in applications like World Action Models and autonomous agents. However, their strong performance often masks a profound Perceptual-Decision Misalignment (PDM), where decisions remain unfaithful to multi-modal perceptions. To diagnose this, we formalize Causal Modality Sensitivity (CMS), operationalized via a dual-lens framework: Answer Retention Rate (ARR) at the macro behavioral level, and Logit Angular Discrepancy (LAD) to track microscopic distribution shifts. We also curate CausalMSBench, a diagnostic dataset isolating language priors. Benchmarking reveals that popular Omni-LLMs exhibit critically low CMS, showing negligible distribution shifts even when key modalities are removed. To rectify this, we propose Modality Subspace Activation (MSA), a training-free inference-time framework that uses Singular Value Decomposition (SVD) to estimate modal activation strengths. MSA dynamically balances modal projections in the last hidden state, effectively restoring CMS across benchmarks.",
+   "dateline": "[Submitted on 31 Jul 2026]",
+   "abs_A": [
+    "subspace"
+   ],
+   "abs_B": [
+    "prior"
+   ],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.14677",
+   "title": "Offline Ambient-Controlled Latent Diffusion: Architecture, Telemetry, and On-Device Evaluation",
+   "authors": "Lech Kalinowski, Artur Morys-Magiera, Piotr Miłkowski",
+   "subjects": "Signal Processing (eess.SP); Artificial Intelligence (cs.AI); Machine Learning (cs.LG)",
+   "cats": [
+    "eess.SP",
+    "cs.LG"
+   ],
+   "title_A": [],
+   "title_B": [
+    "diffusion"
+   ],
+   "title_C": [],
+   "abstract": "Most mobile image-generation applications are thin clients over cloud services, leaving outputs hard to audit. We present an Android latent-diffusion application that runs entirely on-device and is driven by the ambient-light sensor rather than a text prompt, keeping generation, telemetry, and storage local. The contribution is not a new diffusion method but the surrounding measurement workflow: each output is bound to the sensor reading, runtime path, and seed that produced it, giving a per-artifact audit trail for offline analysis. On a single Samsung foldable, one fixed capture of 373 artifacts shows the controller's log-lux input positively associated with output luminance (Pearson $r=0.532$, 95\\% CI $[0.455, 0.601]$), confirming the ambient dependency survives denoising and VAE decoding, while the latent UNet/VAE pipeline runs at 552--1334\\,ms mean latency across three quality tiers under the Android Neural Networks API (NNAPI).",
+   "dateline": "[Submitted on 4 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "diffusion"
+   ],
+   "abs_C": [
+    "neural"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.15103",
+   "title": "Forward-Evolution Error Analysis and Adaptive Design for Matrix-Valued Diffusion Models",
+   "authors": "Tongyao Pang, Zuowei Shen, Ruitong Zhang",
+   "subjects": "Statistics Theory (math.ST); Information Theory (cs.IT)",
+   "cats": [
+    "cs.IT"
+   ],
+   "title_A": [],
+   "title_B": [
+    "diffusion"
+   ],
+   "title_C": [],
+   "abstract": "Diffusion models learn to reverse a predefined corruption process, but sampling still requires a costly time discretization and depends on the chosen noise schedule. We study these two issues for variance-preserving diffusions with matrix-valued schedules. Our analysis transfers reverse-time discretization errors to the forward corruption law and treats two numerical schemes within a common framework. The first freezes the score and yields, through a matrix-sensitive local comparison and forward information dissipation, an ambient-dimensional step complexity with leading factor $d/\\varepsilon^2$ for KL accuracy $\\varepsilon^2$. The second keeps the known Gaussian drift exact and freezes the posterior mean. For data of metric-entropy dimension $k$, a forward Markov identity, an anisotropic covering estimate, and Stieltjes integration by parts give the corresponding factor $k\\log k/\\varepsilon^2$. In both cases, the proof identifies a local error, accumulates it through the forward evolution, and inserts the result into a common KL decomposition. The local errors further provide directional criteria for matrix schedules and an asymptotically optimal square-root adaptive grid. A high-dimensional Gaussian-mixture experiment illustrates the resulting schedule and grid improvements.",
+   "dateline": "[Submitted on 15 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "diffusion"
+   ],
+   "abs_C": [
+    "learn"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.15266",
+   "title": "BrainLinear: A Linear Model for Brain Network Analysis in Sparse Tangent Subspaces",
+   "authors": "Sijing Wu, Dongyuan Li, Miaoting Huang, Weiwei Ye, Ying Zhang, Feng Xia, Renhe Jiang",
+   "subjects": "Graphics (cs.GR); Machine Learning (cs.LG)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "subspace"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "Functional connectome analysis examines brain-region interactions to understand and identify disorders such as autism spectrum disorder and Alzheimer's disease. Existing methods typically use GNNs and Transformers to model the full functional connectivity matrix. However, processing tens of thousands of connections introduces redundancy and noise, increases computational cost, and limits connection-level interpretability. This raises a central question: do we really need complex interaction modeling, or is identifying a small set of disease-relevant connectivity patterns sufficient? To answer this question, we propose BrainLinear, a lightweight geometry-aware framework for mining disease-discriminative connectome patterns. BrainLinear first maps each functional connectivity matrix to a shared tangent space centered at the Fréchet mean of the training set, capturing subject-specific deviations while respecting matrix geometry. It then scores each ROI-pair tangent direction by its classification contribution and disease--control difference, retaining Top-$K$ directions as a compact representation. Finally, a shallow multilayer perceptron performs classification on the selected representation. Experiments on ABIDE and ADNI show that BrainLinear matches or exceeds strong GNN and Transformer baselines at a fraction of their cost: it improves AUC and ACC over the best baseline for each metric by up to $3.54$ and $1.39$ percentage points, while reducing runtime and peak GPU memory by $84.0\\%$ and $68.4\\%$ relative to the closest baseline in AUC. The selected directions are directionally consistent with between-group displacements and organized across major functional systems, supporting connection-level interpretation.",
+   "dateline": "[Submitted on 15 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [],
+   "abs_C": [
+    "transformer"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.15564",
+   "title": "OFDM-ISAC over Data Payloads: MSE Analysis, Constellation Design, and Experimentation",
+   "authors": "Kawon Han, Kaitao Meng, Alexandra Chatzicharistou, Christos Masouros",
+   "subjects": "Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [
+    "constellation"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "Orthogonal frequency division multiplexing (OFDM) is a key waveform for integrated sensing and communication (ISAC) systems due to its high spectral efficiency and inherent compatibility with modern wireless standards. However, its fundamental estimation-theoretic sensing performance under random data modulation remains largely unexplored. This paper presents a unified and explicit performance analysis of OFDM-based ISAC systems for multi-target range estimation, focusing on the distinct impacts of the modulation constellation on the sensing performance. We develop a comprehensive estimation-theoretic framework to characterize the range estimation mean-square error (MSE) for both matched filtering (MF) and reciprocal filtering (RF) sensing receiver architectures. Our theoretical analysis reveals that in multi-target and clutter-rich environments, the sensing performance of the MF receiver is fundamentally limited by the fourth-order moment (kurtosis) of the constellation, which determines the data-dependent sidelobe interference level. In contrast, the RF receiver eliminates such interference at the cost of noise enhancement, with its performance governed by the inverse second-order moment of the constellation. Building on these closed-form MSE derivations, we propose a sensing-receiver specific geometric constellation shaping (GCS) framework. By jointly optimizing the constellation geometry based on the minimum Euclidean distance (MED) and receiver-dependent sensing metrics, we enable a flexible trade-off between communication reliability and sensing precision. Our results demonstrate that the proposed constellation shaping provides significant performance gains and facilitates a tailored sensing and communication trade-off across different receiver architectures in practical over-the-air implementations.",
+   "dateline": "[Submitted on 16 Aug 2026]",
+   "abs_A": [
+    "constellation"
+   ],
+   "abs_B": [],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.16134",
+   "title": "Multi-Feature Riemannian Hypergraph for Online Test-Time Adaptation of Motor Imagery Brain-Computer Interface",
+   "authors": "Siqi Li (1 and 2), Zhi Li (3), Tong Liu (3), Shuai Zhang (3), Yanfei Jia (4), Zhiqiang Yi (4), Jue Xie (3), Ni Ji (5 and 2) ((1) Peking University, (2) Chinese Institute for Brain Research, Beijing, (3) NeuCyber Neurotech, (4) Beijing Medical University, (5) Chinese Academy of Medical Sciences &amp; Peking Union Medical College)",
+   "subjects": "Machine Learning (cs.LG); Human-Computer Interaction (cs.HC); Signal Processing (eess.SP); Neurons and Cognition (q-bio.NC)",
+   "cats": [
+    "eess.SP",
+    "cs.LG"
+   ],
+   "title_A": [],
+   "title_B": [
+    "riemannian"
+   ],
+   "title_C": [],
+   "abstract": "In clinical motor imagery brain-computer interface (MI-BCI) decoding, cross-day transferability and online operation remain two critical challenges. Hypergraphs can improve transferability by capturing higher-order sample relationships, yet existing hypergraph-based methods for online emotion recognition neglect the cross-day benefits of Riemannian geometry widely adopted in EEG transfer learning. To bridge this gap, we propose the Multi-feature Riemannian Hypergraph (MRieHy), a framework tailored for online test-time adaptation in MI-BCI decoding that leverages Riemannian geometry to strengthen cross-day transferability. MRieHy first computes Riemannian means of covariance matrices from cross-day training data to align multi-day distributions. It then constructs a hypergraph over covariance matrices using Riemannian distance, complemented by a second hypergraph over deep features built with cosine similarity. The two hypergraphs are fused via adaptively learned combination weights, jointly optimized with the label projection matrices. During online testing, MRieHy maintains a first-in-first-out buffer of recent samples, performs Riemannian alignment on the buffered data, and decodes with the learned hypergraph. Extensive experiments on a private four-class ECoG dataset and two public four-class EEG datasets validate that MRieHy achieves notable performance gains over state-of-the-art baselines.",
+   "dateline": "[Submitted on 17 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "riemannian"
+   ],
+   "abs_C": [
+    "learn",
+    "deep"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.16167",
+   "title": "RadioVIL: Anomaly-Aware Diffusion Models for Radio Map Inpainting and Zero-Shot Vehicle Localization",
+   "authors": "Ruixin Zhao, Xiucheng Wang, Qiming Zhang, Nan Cheng, Ruijin Sun, Conghao Zhou",
+   "subjects": "Signal Processing (eess.SP); Machine Learning (cs.LG)",
+   "cats": [
+    "eess.SP",
+    "cs.LG"
+   ],
+   "title_A": [],
+   "title_B": [
+    "diffusion"
+   ],
+   "title_C": [],
+   "abstract": "High-precision radio map construction is essential for emerging 6G Integrated Sensing and Communication (ISAC) applications, including digital twins and intelligent transportation. However, existing deep learning methods predominantly treat this as a pure image completion task, resulting in over-smoothed reconstructions that fundamentally erase high-frequency scattering signatures of dynamic physical entities such as hidden vehicles. To overcome this, we propose RadioVIL, an efficient two-stage framework that reformulates joint radio map inpainting and zero-shot vehicle localization as a prior-guided physical inverse problem. Specifically, we first train a Denoising Diffusion Probabilistic Model (DDPM) to capture the structural generative prior of the environment. During inference from highly sparse measurements, we employ a Diffusion-based Mediating Intermediate Layer Optimization (DMILO) algorithm. By optimizing an L1-regularized sparse deviation term, DMILO mathematically isolates vehicle scattering anomalies layer-by-layer without unfolding the entire denoising chain. Extensive experiments demonstrate that while conventional reconstruction baselines fail to detect hidden vehicles, and the zero-shot diffusion baseline achieves only limited detection ability due to forced semantic harmonization, RadioVIL preserves authentic physical textures, yielding the best LPIPS of 0.0587 in our evaluation. Uniquely, it unlocks accurate zero-shot vehicle localization directly from sparse radio maps, securing a 75.20% Recall and a 3.31-meter average error, paving a robust way for ISAC at the 6G edge.",
+   "dateline": "[Submitted on 17 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "diffusion",
+    "generative",
+    "prior"
+   ],
+   "abs_C": [
+    "learn",
+    "deep"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.18582",
+   "title": "Score-based Fading-Aware Decision Fusion",
+   "authors": "Domenico Ciuonzo",
+   "subjects": "Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [],
+   "title_B": [
+    "score-based"
+   ],
+   "title_C": [],
+   "abstract": "Distributed detection of an unknown deterministic signal is studied in a wireless sensor network with low-cost nodes. Sensors apply one-bit quantization to noisy observations and transmit over Rayleigh fading to a Fusion Center (FC). Score tests, including variants using observed Fisher information, are proposed as low-complexity alternatives to the generalized likelihood ratio test (GLRT). The FC performs joint decoding and fusion, optimizing quantizers in a channel-aware manner to improve asymptotic detection performance. Simulations confirm the appeal of score-based tests under realistic wireless conditions.",
+   "dateline": "[Submitted on 19 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "score-based"
+   ],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.21709",
+   "title": "Posterior Information Dynamics of Diffusion Models for Linear Inverse Problems",
+   "authors": "Xiangming Meng",
+   "subjects": "Machine Learning (cs.LG); Information Theory (cs.IT); Signal Processing (eess.SP)",
+   "cats": [
+    "cs.IT",
+    "eess.SP",
+    "cs.LG"
+   ],
+   "title_A": [],
+   "title_B": [
+    "diffusion"
+   ],
+   "title_C": [],
+   "abstract": "Diffusion models are widely used as priors for linear inverse problems, yet endpoint quality does not reveal when measurement information enters reverse denoising or how it is allocated across signal directions. We study this process through the smoothed likelihood force, the difference between exact posterior and prior scores at each noise level. For a fixed measurement, its expected squared norm gives both posterior--prior relative-entropy dissipation and reverse-path relative-entropy growth. Averaging over measurements yields an information--minimum mean-square error (I-MMSE) identity linking information gain to denoising-error reduction. Under finite second moments, the force energy and its ratio to prior-score energy decay quadratically in the noising kernel's signal coefficient at high noise. Solvable models show that conditioning removes class separation already explained by the measurement, reduces a uniform index entropy over \\(n\\) empirical samples from \\(\\log n\\) to \\(H(I\\mid r)\\), and makes assimilation depend on operator--prior alignment even for identical singular values. Experiments in models with tractable posteriors evaluate these predictions. In a separate illustration with a frozen FFHQ model, masks sharing the same spectrum yield different prior-normalized null-space trajectory statistics.",
+   "dateline": "[Submitted on 22 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "diffusion",
+    "prior"
+   ],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.22837",
+   "title": "Entropy of Bernoulli Measures Conditioned on Affine Subspaces and a Problem of Ancheta--Massey",
+   "authors": "Yihong Wu",
+   "subjects": "Information Theory (cs.IT)",
+   "cats": [
+    "cs.IT"
+   ],
+   "title_A": [
+    "subspace"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "A textbook result in information theory is that linear encoders achieve the entropy for lossless compression of Bernoulli source with parameter $p$. For lossy compression, however, linearity is known to incur strict suboptimality compared to the rate-distortion function. Massey asked whether the optimal rate for linear encoding is achieved simply by compressing a fraction of the bits linearly and losslessly and estimating the rest by zero \\cite{Massey1978}. For $p=\\frac12$, Ancheta answered this question affirmatively \\cite{Ancheta1978}. This note extends Ancheta's result to all $p<\\frac12$. The key argument is to bound the entropy of the posterior distribution conditioned on an affine subspace in terms of its marginals. The proof was discovered by GPT-5.6 Sol in an interactive process guided by the author. The purpose of the present note is to communicate a simplified version of this proof and to make connections with the existing literature on coding theory and spin glass theory.",
+   "dateline": "[Submitted on 24 Aug 2026]",
+   "abs_A": [
+    "subspace"
+   ],
+   "abs_B": [],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.23287",
+   "title": "Poisson Subspace Clustering: Focusing on the Essentials in Count Data",
+   "authors": "Collin Leiber, Kai Puolamäki, Heikki Mannila",
+   "subjects": "Machine Learning (cs.LG)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "subspace"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "Count data represented as a matrix of non-negative integer values, such as contingency tables, are prevalent across diverse domains. When clustering such data sets, specific methods are required, as generic algorithms often fail to consider their unique distributional properties, leading to unreliable outputs. An effective strategy is to use well-established statistical models such as the Poisson and negative binomial distributions. We present 3CPO, a clustering algorithm based on statistically solid modeling of count data. In addition to the cluster labels, it identifies a subset of relevant columns, enhancing the interpretability of the results. We propose a simple iterative algorithm that maximizes the posterior probability to find good clustering solutions and discuss its properties. Extensive experiments demonstrate its ability to define high-quality clusters within associated subspaces for various data domains, ranging from gene expressions and texts to economics. Our findings suggest that 3CPO is a robust solution for clustering count data in a statistically sound and interpretable manner. Our code is available at this https URL.",
+   "dateline": "[Submitted on 24 Aug 2026]",
+   "abs_A": [
+    "subspace"
+   ],
+   "abs_B": [],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.23554",
+   "title": "Provably adaptive sampling with uniform and remasking discrete diffusion models",
+   "authors": "Daniil Dmitriev, Zhihan Huang, Yuting Wei",
+   "subjects": "Machine Learning (cs.LG); Information Theory (cs.IT); Statistics Theory (math.ST); Machine Learning (stat.ML)",
+   "cats": [
+    "cs.IT",
+    "cs.LG"
+   ],
+   "title_A": [],
+   "title_B": [
+    "diffusion"
+   ],
+   "title_C": [],
+   "abstract": "Discrete diffusion models offer a promising alternative to autoregressive generation by enabling parallel updates, but their sampling efficiency can depend strongly on the choice of the forward process and the sampler. For the uniform forward process, existing lower bounds for the standard $\\tau$-leaping sampler scale linearly with the ambient dimension $d$, raising the question of whether this dependence is intrinsic to the forward process. We answer this question in the negative. We consider a first-order sampler based on the leave-one-out denoiser for uniform and remasking processes whose coordinate updates can be performed in parallel. In both cases, the sampler can correct denoising mistakes during the sampling process, which becomes necessary when many coordinates are updated together. Our main result establishes an adaptive sampling guarantee: up to logarithmic factors, $N = O(\\mathrm{DTC}(X_0) / \\varepsilon)$ discretization steps suffice to achieve sampling error $O(\\varepsilon_{\\mathrm{score}}+\\varepsilon)$, where $\\varepsilon_{\\mathrm{score}}$ is the error in score estimation. Thus, the sampling complexity is governed by the intrinsic dependence structure of the target distribution, as measured by its dual total correlation $\\mathrm{DTC}(X_0)$, rather than directly by the ambient dimension $d$. Our analysis proceeds through a Bayes-optimal auxiliary sampler that separates discretization error from score-estimation error. We also derive an exact information-theoretic representation of the discretization error in terms of the mutual information between different coordinates of the forward process at different times. This representation applies to general forward processes and, in the uniform and remasking cases, can be controlled by $\\mathrm{DTC}(X_0)$. Numerical experiments on structured synthetic distributions illustrate the predicted dimension-adaptive behavior.",
+   "dateline": "[Submitted on 24 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "diffusion"
+   ],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.24558",
+   "title": "Array-Agnostic Ambisonics Encoding via Diffusion Posterior Sampling",
+   "authors": "Amit Milstein, Nir Shlezinger, Boaz Rafaely",
+   "subjects": "Audio and Speech Processing (eess.AS); Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [],
+   "title_B": [
+    "diffusion"
+   ],
+   "title_C": [],
+   "abstract": "Spatial audio enhances user immersion by reproducing 3D sound fields, with Ambisonics being a widely adopted representation. While Ambisonics is theoretically independent of the recording setup, practical microphone arrays introduce hardware-dependent encoding artifacts. Moreover, existing data-driven solutions lack flexibility, as they are typically restricted to fixed array geometries. To overcome these limitations, we propose ADEPS, a generative framework that explicitly embeds the physical acquisition model into the inference process. By leveraging this formulation, ADEPS effectively compensates for array-specific distortions while enabling zero-shot encoding across arbitrary array topologies. We train the underlying generative prior in an unsupervised manner solely on target Ambisonic representations. Extensive evaluations across diverse simulated and real microphone arrays demonstrate that ADEPS consistently outperforms both traditional linear and parametric baselines in spatial fidelity and spectral quality.",
+   "dateline": "[Submitted on 25 Aug 2026 (v1), last revised 8 Sep 2026 (this version, v3)]",
+   "abs_A": [],
+   "abs_B": [
+    "generative",
+    "prior"
+   ],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.24584",
+   "title": "A Transformer for Joint Multi-Receiver Pilotless Wi-Fi Decoding",
+   "authors": "Xavier Tardy, Grégoire Lefebvre, Apostolos Kountouris, Haïfa Farès, Amor Nafkha",
+   "subjects": "Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [
+    "pilotless"
+   ],
+   "title_B": [],
+   "title_C": [
+    "transformer"
+   ],
+   "abstract": "In this paper we discuss the development of a fully pilotless multi-access-point Wi-Fi receiver. This is based on a self-attention Transformer that operates on per-(access point, subcarrier) tokens and outputs bit-wise logits for a standard low-density parity-check decoder. In realistic ray-traced indoor channels, pilotless decoding becomes feasible as soon as some spatial diversity is available. While a single-access point configuration does not attain practical error rates, when compared to an ideal maximum-ratio-combining baseline with perfect channel knowledge, cooperative configurations with three access points achieve coded bit error rates of approximately $10^{-5}$. This is achieved while benefiting from higher spectral efficiency by eliminating pilots.",
+   "dateline": "[Submitted on 25 Aug 2026 (v1), last revised 1 Sep 2026 (this version, v2)]",
+   "abs_A": [
+    "pilotless"
+   ],
+   "abs_B": [],
+   "abs_C": [
+    "transformer"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.25393",
+   "title": "End-to-End Mobility-Aware Multi-RIS Optimization via Blockage Detection and Closed-Form Riemannian Updates",
+   "authors": "Sehyun Ryu, Seungmin Choi, Hyun Jong Yang, John M. Cioffi",
+   "subjects": "Signal Processing (eess.SP); Systems and Control (eess.SY)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [],
+   "title_B": [
+    "riemannian"
+   ],
+   "title_C": [],
+   "abstract": "Millimeter-wave (mmWave) multi-user MIMO systems are highly susceptible to dynamic blockages, and reconfigurable intelligent surfaces (RIS) have been introduced as a remedy. However, RIS links can themselves be blocked, while existing studies often assume ideal availability. This paper proposes an end-to-end mobility-aware multi-RIS optimization framework that integrates per-RIS blockage detection with closed-form Riemannian updates. The base station transmits short indexed synchronization signals, enabling each user to identify blocked panels via a simple energy test. Based on the detected feasible sets, we jointly optimize the BS precoder and RIS phases using a Stochastic Closed-form Riemannian Phase Alignment (SCRPA) algorithm, which ensures unit-modulus feasibility, monotone convergence, and low complexity. Extensive simulations validate reliable blockage detection and demonstrate significant weighted sum-rate and scalability gains compared to existing baselines.",
+   "dateline": "[Submitted on 26 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "riemannian"
+   ],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.25524",
+   "title": "Adaptive Hybrid Subspace Levenberg Marquardt Algorithm with Adequacy Monitor for Large Scale Least Squares Problems",
+   "authors": "M. Duc Hoang, Timothy J. Lewis",
+   "subjects": "Numerical Analysis (math.NA); Machine Learning (cs.LG); Optimization and Control (math.OC)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "subspace"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "The Levenberg-Marquardt (LM) algorithm is the most widely used method for solving nonlinear least-squares problems, as it combines the robustness of steepest descent with the fast local convergence of the Gauss-Newton method. However, its computational cost can become prohibitive for large-scale problems because each iteration requires solving a large damped linear system, and conventional step acceptance strategies may require repeated solves as the damping parameter is adjusted. Despite this computational challenge, many large-scale least-squares problems exhibit effective low-dimensional structure, with only a small number of parameter-space directions strongly informed by the data. We propose an adaptive hybrid subspace Levenberg-Marquardt (HSLM) algorithm that constructs a low-dimensional subspace from complementary sources of gradient, memory, Krylov-subspace, and randomized curvature information and computes a spectrally damped LM step within this subspace. A distinguishing feature of the method is a deterministic adequacy monitor that quantifies how much descent information is captured by the reduced space and adaptively enriches the subspace when necessary. Step acceptance is decoupled from damping adjustment: Armijo backtracking determines the accepted step length, while the ratio of actual to predicted reduction is used solely to update the damping parameter, thereby avoiding repeated damped-system solves during step acceptance. For the HSLM algorithm, we establish global convergence to stationarity and prove local linear and superlinear convergence. Numerical experiments on neural-network training problems show that HSLM achieves convergence behavior comparable to classical and Krylov subspace LM (KSLM) while substantially reducing per-iteration computational cost, with increasing advantages observed as the parameter dimension grows.",
+   "dateline": "[Submitted on 26 Aug 2026]",
+   "abs_A": [
+    "subspace"
+   ],
+   "abs_B": [],
+   "abs_C": [
+    "neural"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.27503",
+   "title": "Quantized Low-Rank Quantum State Tomography: Hyperbolic Quantization and Riemannian Least-Squares Recovery",
+   "authors": "HanQin Cai, Longxiu Huang, Juntao You",
+   "subjects": "Quantum Physics (quant-ph); Information Theory (cs.IT)",
+   "cats": [
+    "cs.IT"
+   ],
+   "title_A": [],
+   "title_B": [
+    "riemannian"
+   ],
+   "title_C": [],
+   "abstract": "We study low-rank quantum state tomography from finite-bit Pauli batch responses. To avoid bias introduced by generic quantization, we propose HyperQuant, a mean-preserving hyperbolic quantizer adapted to the second-moment scale of Pauli responses. We establish minimax distortion guarantees and show that exact mean preservation enables direct rank-constrained least-squares recovery without altering the population target. We derive nonasymptotic recovery guarantees and an explicit bit--shot tradeoff under which finite-bit responses retain the error order of unquantized batch averages using fewer response bits. For efficient computation, we develop QuantRGD, a Riemannian gradient method with provable linear convergence to the corresponding statistical neighborhood under explicit resource conditions. Numerical experiments validate the predicted quantization, recovery, and convergence behavior.",
+   "dateline": "[Submitted on 27 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "riemannian"
+   ],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.28927",
+   "title": "Patch-Based Diffusion Reconstruction for Accelerated Cardiac Cine",
+   "authors": "Xuan Lei, Philip Schniter, Juliet Varghese, Rizwan Ahmad",
+   "subjects": "Image and Video Processing (eess.IV); Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [],
+   "title_B": [
+    "diffusion"
+   ],
+   "title_C": [],
+   "abstract": "Purpose: To develop and evaluate a diffusion-based reconstruction framework for highly accelerated 2D real-time (RT) cine cardiovascular magnetic resonance imaging (CMR). Methods: We trained an unconditional patch-based diffusion model and incorporated it into a reconstruction framework, termed CineDiff, using diffusion posterior sampling for data consistency. CineDiff was evaluated in four settings: (i) 30 retrospectively undersampled breath-held cine at 1.5T and 3T from healthy participants across multiple acceleration rates, (ii) 15 prospectively undersampled free-breathing RT cine at 1.5T and 3T from patients indicated for clinical CMR, and (iii) 10 prospectively undersampled mid-field (0.55T) free-breathing scans, including five from healthy subjects and five from porcine models. For retrospective undersampling, reconstruction quality was assessed using peak signal-to-noise ratio (PSNR), structural similarity index measure (SSIM), learned perceptual image patch similarity (LPIPS), and deep image structure and texture similarity (DISTS). For prospective undersampling, image quality was evaluated by blinded expert scoring on a 5-point Likert scale. Results: In retrospectively undersampled breath-held cine data, CineDiff achieved higher PSNR and SSIM and lower LPIPS and DISTS than the comparison methods across all evaluated acceleration rates. In prospectively undersampled free-breathing RT cine data, CineDiff received higher expert image-quality scores. Qualitatively, CineDiff reduced block-like artifacts and preserved finer anatomical detail compared with traditional compressed sensing and a variational network method, termed CineVN. Conclusion: CineDiff enabled high-quality reconstruction of highly accelerated 2D RT cine CMR. The method also demonstrated robustness to out-of-distribution data, including mid-field and porcine acquisitions.",
+   "dateline": "[Submitted on 28 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "diffusion"
+   ],
+   "abs_C": [
+    "learn",
+    "deep"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2608.29838",
+   "title": "KDGen-BF: A Generative Site-Specific Multi-User Beamforming Approach",
+   "authors": "Ruihang Jiang, Zhaolin Wang, Yuanwei Liu",
+   "subjects": "Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [],
+   "title_B": [
+    "generative"
+   ],
+   "title_C": [],
+   "abstract": "This paper proposes knowledge-distilled generative beamforming (KDGen-BF) framework for site-specific multi-user beamforming. KDGen-BF generates a multi-user beamforming weights from low-dimensional reference signal received power (RSRP) observations without acquiring instantaneous channel state information (CSI). To address the ambiguity caused by limited RSRP observations and interference coupling, KDGen-BF formulates multi-user beamforming as a conditional generation problem and directly outputs beamforming weights beyond a finite codebook. A diffusion transformer is trained through knowledge-distillation and exponential-moving-average (KD-EMA) guidance, and multi-candidate strategy is used for online deployment. Numerical results on multiple DeepMIMO scenarios demonstrate that: 1) under limited probing budgets, KDGen-BF outperforms all baselines; 2) with larger probing budgets, KDGen-BF achieves performance comparable to exhaustive search over the discrete Fourier transform (DFT) codebook and outperforms all other baselines; and 3) under noisy RSRP observations, KDGen-BF remains robust and outperforms all compared baselines.",
+   "dateline": "[Submitted on 30 Aug 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "diffusion",
+    "generative"
+   ],
+   "abs_C": [
+    "deep",
+    "transformer"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.00552",
+   "title": "Manifold-Aware General Coded Computing for Straggler-Resilient Distributed Computing",
+   "authors": "Parsa Moradi, Mohammad Ali Maddah-Ali",
+   "subjects": "Machine Learning (cs.LG); Information Theory (cs.IT)",
+   "cats": [
+    "cs.IT",
+    "cs.LG"
+   ],
+   "title_A": [],
+   "title_B": [
+    "manifold"
+   ],
+   "title_C": [],
+   "abstract": "Existing coded-computing designs do not explicitly exploit the intrinsic structure of the input data. In communication systems, statistical structure and redundancy are often removed through source coding (or compression) before channel coding is applied. This principle, however, does not transfer directly to coded computation. In many computational tasks, particularly in machine learning, the structure of the data is precisely what the computation seeks to exploit to infer outputs or learn meaningful patterns. Consequently, coded-computing schemes should preserve and leverage this structure in their code design, rather than ignoring or eliminating it through source coding. This observation motivates a different perspective on code construction. In many channel-coding schemes, such as Reed-Solomon codes, coded symbols are generated by evaluating a low-dimensional algebraic representation at selected points. In contrast, many high-dimensional datasets naturally concentrate near low-dimensional manifolds. In this paper, we exploit this intrinsic geometry by designing coded samples that follow the natural manifold of the data, rather than imposing an artificial low-dimensional structure unrelated to the data distribution. Inspired by graph-based manifold learning, we propose a manifold-aware encoding strategy for general coded computing (GCC). Experiments on neural network inference and high-dimensional polynomial evaluation demonstrate that the proposed strategy consistently and significantly reduces the mean squared recovery error under straggling compared with standard GCC.",
+   "dateline": "[Submitted on 1 Sep 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "manifold"
+   ],
+   "abs_C": [
+    "learn",
+    "neural"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.00789",
+   "title": "Subspace Levenberg Marquardt Algorithms in Training Neural Networks",
+   "authors": "M. Duc Hoang",
+   "subjects": "Machine Learning (cs.LG); Optimization and Control (math.OC)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "subspace"
+   ],
+   "title_B": [],
+   "title_C": [
+    "neural"
+   ],
+   "abstract": "The Levenberg-Marquardt (LM) algorithm is a well-known second-order method for rapid convergence and strong robustness when training small- to medium-sized neural networks (NNs). However, its computational and memory costs increase significantly as the number of parameters in an NN grows. To address this limitation, subspace methods have been proposed, such as the Krylov subspace LM (KSLM) and the hybrid subspace LM (HSLM), making second-order algorithms more efficient. In this work, we evaluate the subspace Levenberg-Marquardt algorithms for regression and classification tasks in neural networks. We compare the performance of subspace LM variants with the classical LM method, as well as other popular first-order algorithms, such as stochastic gradient descent (SGD) and Adam.",
+   "dateline": "[Submitted on 1 Sep 2026]",
+   "abs_A": [
+    "subspace"
+   ],
+   "abs_B": [],
+   "abs_C": [
+    "neural"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.00875",
+   "title": "FractalNet-Based Heterogeneous Federated Learning for Orbital Edge Intelligence in Satellite Mega-Constellations: A Wildfire Case Study",
+   "authors": "Sai Puppala, Koushik Sinha",
+   "subjects": "Artificial Intelligence (cs.AI); Distributed, Parallel, and Cluster Computing (cs.DC); Emerging Technologies (cs.ET); Machine Learning (cs.LG)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "constellation"
+   ],
+   "title_B": [],
+   "title_C": [
+    "learn"
+   ],
+   "abstract": "Satellite mega-constellations are emerging as large-scale sensing, communication, and computation fabrics, yet their learning architectures remain largely inherited from terrestrial federated learning and ground-centric mission operations--- ill-suited to satellites that differ by orders of magnitude in Size, Weight, Power, and Cost (SWAP-C), radiation tolerance, link availability, and propagation delay. We propose a heterogeneous federated learning method based on the FractalNet architecture for orbital edge intelligence. We formalize contact-window-constrained, depth-heterogeneous federated optimization and introduce a distributed path scheduler that assigns model depth as a function of SWAP-C constraints, predicted inter-satellite contacts, and training statistics. To reduce message overhead and energy consumption, each tier pools updates periodically rather than at every contact opportunity, and a three-tier agentic control plane governs in-space scheduling, anomaly escalation, and policy-governed autonomy. As a case study, we apply the framework to wildfire detection, where each orbital shell naturally learns a different semantic level of situational awareness: pixel-scale thermal anomalies at low Earth orbit (LEO), regional fire-front dynamics at medium Earth orbit (MEO), and larger-scale risk propagation at geostationary or high Earth orbit (GEO/HEO). Experiments on simulated mega-constellations validate the approach across convergence, communication efficiency, energy adaptation, scheduled-pooling savings, robustness, and latency.",
+   "dateline": "[Submitted on 1 Sep 2026]",
+   "abs_A": [
+    "constellation"
+   ],
+   "abs_B": [],
+   "abs_C": [
+    "learn"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.01062",
+   "title": "Space Generative AI with Solar Energy Harvesting",
+   "authors": "Jierui Zhang, Jianhao Huang, Zhanwei Wang, Kaibin Huang",
+   "subjects": "Artificial Intelligence (cs.AI); Networking and Internet Architecture (cs.NI); Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [],
+   "title_B": [
+    "generative"
+   ],
+   "title_C": [],
+   "abstract": "Satellites are emerging as promising platforms to extend generative \\emph{artificial intelligence} (AI) services to remote areas lacking terrestrial infrastructure. However, deploying space generative AI is fundamentally constrained by the limited, time-varying onboard energy supplied by solar \\emph{energy harvesting} (EH). This paper presents a framework for solar-powered space generative AI in which a satellite receives a user prompt, executes a diffusion-based image-generation model, and downlinks the compressed result within a strict time window. We identify the fundamental \\emph{computation--communication} (C$^2$) trade-offs governed by the shared harvested-energy budgets. Specifically, increasing the number of generation steps improves intrinsic image quality but depletes energy and time available for downlink transmission, whereas prioritizing communication guarantees reliable delivery but sacrifices semantic quality. To balance these trade-offs and maximize \\emph{end-to-end} (E2E) generative performance, we exploit the predictable solar-EH dynamics induced by deterministic orbital motion and develop a joint C$^2$ resource-optimization framework using a tractable two-step approach. First, we characterize the maximum downlink throughput for a fixed generation depth under continuous solar EH. This establishes a separation principle that decouples waiting-time selection from optimal transmit-power control. Next, we formulate a joint C$^2$ utility-maximization problem and derive a closed-form, low-complexity step-selection policy in the dominant constant-power regime. Extensive experiments under realistic orbital dynamics demonstrate that the proposed policy dynamically balances generation quality and transmission reliability. This yields significant E2E performance gains over static computation- and communication-centric baselines across diverse solar-EH states.",
+   "dateline": "[Submitted on 1 Sep 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "diffusion",
+    "generative",
+    "prior"
+   ],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.01074",
+   "title": "OTFS Channel Estimation Utilizing Sparse Bayesian Generative Modelling",
+   "authors": "Louis Anseaume, Benedikt Böck, Franz Weißer, Wolfgang Utschick",
+   "subjects": "Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [],
+   "title_B": [
+    "generative"
+   ],
+   "title_C": [],
+   "abstract": "One of the key challenges of future wireless communication systems is ensuring reliability in high-speed mobile scenarios, where accurate recovery of channel state information (CSI) is essential. Many recent studies have concluded that orthogonal time-frequency space (OTFS) modulation is a promising technology for addressing this challenge. Additionally, machine learning (ML)-based methods have the potential to improve channel estimation performance by leveraging ambient information more effectively than classical estimation techniques. This paper particularly addresses channel estimation for OTFS by employing a compressive sensing (CS)-based sparse Bayesian generative model (SBGM), namely the recently introduced compressive sensing Gaussian mixture model (CSGMM). We show that our proposed approach yields significant improvement in normalized mean squared error (NMSE) over the next-best-performing baseline. We additionally provide insights into the theoretical potential of the model to optimally approximate complex channel distributions with arbitrary precision within the Doppler-delay (DD) domain. To summarize, this work establishes the OTFS-CSGMM framework as a promising solution for high mobility wireless channel estimation.",
+   "dateline": "[Submitted on 1 Sep 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "generative"
+   ],
+   "abs_C": [
+    "learn"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.03150",
+   "title": "Routing Is Not Enough: Diagnosing Intra-Adapter Subspace Contention in MoE+LoRA Fine-Tuning",
+   "authors": "Mehreen Hossain Chowdhury, Nowshin Mahjabin, Ahmed Shafin Ruhan, Md Azam Hossain, Abu Raihan Mostofa Kamal, Md Tahmid Rahman Laskar",
+   "subjects": "Machine Learning (cs.LG); Computation and Language (cs.CL)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "subspace"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "Multi-domain fine-tuning often combines MoE routing with LoRA, assuming that token-level routing separates domain-specific updates. We test this assumption in MoE+LoRA using Python code paired with biomedical text and mathematical reasoning. Although these domains show near-disjoint expert routing, adding biomedical data substantially increases code perplexity, indicating that routing separation alone may not prevent negative transfer. To localize the failure, we introduce Jaccard routing overlap and adapter-gradient cosine similarity, which measure expert sharing and update compatibility, respectively. These diagnostics indicate that interference arises mostly from nearly orthogonal domain gradients competing within the same low-rank adapter subspace. We address this issue with SpawnLoRA, which dynamically adds gated sub-adapters inside MoE experts when adapter-level contention is detected, while keeping the router fixed. We evaluate SpawnLoRA on Phi-tiny-MoE-instruct and OLMoE-1B-7B across multiple mixture settings and find that it effectively reduces negative transfer compared with standard and rank-adaptive LoRA. These results demonstrate that structural separation inside experts provides benefits beyond routing or rank expansion alone.",
+   "dateline": "[Submitted on 2 Sep 2026]",
+   "abs_A": [
+    "subspace"
+   ],
+   "abs_B": [],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.03262",
+   "title": "Symbol-Domain Chase Combining on Fourier-Curve Constellations: Exact Penalties of Per-Round Bit Reduction",
+   "authors": "Bin Han, Muxia Sun, Hans D. Schotten",
+   "subjects": "Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [
+    "constellation"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "A Fourier-curve constellation places $M$ symbols on a closed curve in $\\R^{2k}$ and injects artificial noise along the tangent at the transmitted symbol, so every symbol candidate carries its own rank-one noise covariance; a Chase retransmission repeats one such $M$-ary symbol. How should the covariance-aware receiver combine the repeated observations? It can accumulate the $M$ candidate metrics and form bit log-likelihood ratios (LLRs) once, or it can form bit LLRs in every round and add them. The rounds are independent given the symbol but not given a single label bit, so even exact per-round bit LLRs do not add up to the joint-round LLR. We derive exact identities for the gap under log-sum-exp and max-log reduction, with their equality conditions; they hold for any repeated $M$-ary symbol, grow with the number of rounds, and vanish for binary signaling. On the Fourier channel with a rate-$1/2$ LDPC code after $L=4$ rounds, per-round max-log reduction needs $1.95$ dB more per-slot SNR at block error rate $10^{-1}$ than even covariance-ignorant Euclidean accumulation. Optimized bit-metric generalized mutual information puts the SNR penalty of per-round exact reduction at the code-rate threshold at $2.7$ dB on the Fourier channel and $1.5$ dB on Gray 64-QAM, joint max-log costs less than $0.1$ dB, and a 5G NR LDPC code on Gray 64-QAM loses $1.6$ dB at $L=4$. Controls with Gray labeling, isotropic noise, and $\\beta=0$ show that the loss does not depend on the symbol-dependent covariance, whose own effect is the separate matched-versus-Euclidean correction. The Fourier receiver should therefore accumulate matched candidate metrics across rounds and reduce to bits once.",
+   "dateline": "[Submitted on 3 Sep 2026 (v1), last revised 4 Sep 2026 (this version, v2)]",
+   "abs_A": [
+    "constellation"
+   ],
+   "abs_B": [],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.03264",
+   "title": "Certified Spherical MUSIC for 3D Localization under Adversarial Subspace Perturbations",
+   "authors": "Albert Fannjiang, Chuong Nguyen",
+   "subjects": "Classical Analysis and ODEs (math.CA); Information Theory (cs.IT)",
+   "cats": [
+    "cs.IT"
+   ],
+   "title_A": [
+    "subspace"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "We study an oracle subspace-perturbation model for 3D localization. The procedure is given an $s$-dimensional subspace $\\widetilde{\\mathcal U}$ and a deterministic error bound \\[ \\varepsilon_{\\mathrm{sub}} = \\left\\|P_{\\widetilde{\\mathcal U}}-P_{\\mathcal U}\\right\\|_2, \\] where $\\mathcal{U}$ is an $s$-dimensional subspace of far-field patterns with wavenumber $\\kappa$, and $P_{\\mathcal{V}}$ denotes orthogonal projection onto a subspace $\\mathcal{V}$. Under explicit separation and conditioning hypotheses for arbitrary point clouds, we prove that the perturbed spherical MUSIC objective \\[ \\widetilde{q}({\\mathbf z}) = 1-\\left\\|P_{\\widetilde{\\mathcal{U}}}\\varphi_{\\mathbf z}\\right\\|_2^2 \\] has a unique strongly convex well in every ball $B_{\\gamma/\\kappa}(x_j)$ and a uniform value gap outside the union of the certified wells. A fixed-step gradient map with $h\\asymp\\kappa^{-2}$ leaves each well invariant and converges linearly to its unique minimizer. Consequently, thresholding on an $O(\\kappa^{-1})$-mesh, followed by gradient descent and duplicate removal, recovers all relevant minima with localization bound \\[ \\mathfrak{R}(\\varepsilon_{\\mathrm{sub}}) \\lesssim \\frac{\\varepsilon_{\\mathrm{sub}}}{\\kappa}. \\] The arbitrary-cloud frame analysis yields the sufficient condition \\[ \\kappa\\delta_X\\gtrsim s^{2/3} \\] through an absolute coherence row sum and Gershgorin's theorem. We construct lower-frame counterexamples below the $s^{1/6}$ scale, upper-frame counterexamples below the $s^{1/3}$ scale, and examples showing that $2/3$ is optimal for the absolute-row-sum argument. Finally, for parameter classes containing a uniformly admissible one-point displacement path, we prove \\[ \\mathfrak{R}(\\varepsilon_{\\mathrm{sub}}) \\sim \\frac{\\varepsilon_{\\mathrm{sub}}}{\\kappa}. \\]",
+   "dateline": "[Submitted on 3 Sep 2026 (v1), last revised 14 Sep 2026 (this version, v2)]",
+   "abs_A": [
+    "subspace"
+   ],
+   "abs_B": [],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.04066",
+   "title": "Subspace Inference Enables Efficient Active Reward Learning from Preferences",
+   "authors": "Yutai Zhou, Erdem Bıyık",
+   "subjects": "Machine Learning (cs.LG); Artificial Intelligence (cs.AI); Robotics (cs.RO)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "subspace"
+   ],
+   "title_B": [],
+   "title_C": [
+    "learn"
+   ],
+   "abstract": "Reinforcement learning from human feedback (RLHF) has emerged as a powerful yet sample-inefficient approach for learning reward models from human preferences, making active learning a critical component in synthesizing informative preference queries. However, effective uncertainty quantification required for active learning remains a key challenge for large neural network reward models. In this paper, we introduce PreferenceEKF, a sample-efficient approach that tracks reward model uncertainty by framing active preference learning as a sequential Bayesian filtering problem. Instead of relying on computationally prohibitive posterior inference over the full neural network parameter space, our method performs sequential inference via an extended Kalman filter within a low-dimensional parameter subspace, continuously updating the reward model posterior as new preference queries arrive. Our approach enables scalable sampling of neural network parameters to efficiently compute acquisition functions for active reward learning. Experiments on the D4RL and V-D4RL benchmarks demonstrate that our approach achieves better sample efficiency, runtime, scalability, and calibration compared to other Bayesian deep learning approaches, and the learned reward models lead to competitive offline reinforcement learning policy performance. This highlights the potential of scalable Bayesian methods for preference-based reward modeling in RLHF. Our code is available at this https URL.",
+   "dateline": "[Submitted on 3 Sep 2026]",
+   "abs_A": [
+    "subspace"
+   ],
+   "abs_B": [],
+   "abs_C": [
+    "learn",
+    "neural",
+    "deep"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.05617",
+   "title": "Bias-Corrected Subspace Intersection: Minimax-Optimal Shared Subspace Estimation in Multi-View Data",
+   "authors": "Xianwen Song, Yuepeng Yang, Cong Ma",
+   "subjects": "Methodology (stat.ME); Information Theory (cs.IT); Statistics Theory (math.ST); Machine Learning (stat.ML)",
+   "cats": [
+    "cs.IT"
+   ],
+   "title_A": [
+    "subspace"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "Estimating a low-dimensional subspace shared across noisy data matrices is a fundamental problem in multi-view matrix estimation. We study this problem under the two-view JIVE model, where each data matrix contains shared and view-specific low-rank components. We demonstrate that standard plug-in subspace intersection, including AJIVE, suffers from a second-order bias caused by direction-dependent leakage of the empirical singular vectors. We propose bias-corrected subspace intersection (BCSI), which removes this bias before estimating the shared subspace. We establish finite-sample risk bounds for BCSI that accommodate unequal view dimensions, signal strengths, and view-specific ranks and require no condition-number assumptions on the signal matrices. When the shared and view-specific ranks are comparable, these bounds match our minimax lower bounds up to universal constants. The resulting minimax rate contains a new second-order term, arising from quadratic leakage perturbations relative to the shrinking spectral gap when the view-specific subspaces are nearly aligned. This term is absent from previous JIVE minimax lower bounds. Numerical experiments demonstrate the advantage of BCSI over AJIVE when the leakage bias is pronounced. Along the way, we establish a nonasymptotic concentration result for the bias-corrected leakage Gram matrix of a rectangular spiked matrix, which may be of independent interest.",
+   "dateline": "[Submitted on 4 Sep 2026]",
+   "abs_A": [
+    "subspace"
+   ],
+   "abs_B": [],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.06073",
+   "title": "FedSubMuon: Communication-Efficient Federated LLM Fine-Tuning via Structured Subspace Muon",
+   "authors": "Shaolong Chen, Youming Tao, Shuzhen Chen, Falko Dressler, Qingqing Ye, Di Wang",
+   "subjects": "Machine Learning (cs.LG); Artificial Intelligence (cs.AI)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "subspace"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "Federated fine-tuning adapts large language models (LLMs) to decentralized client data, but its scalability in cross-device training is often limited by the high communication cost. Muon is an optimizer that improves optimization performance by orthogonalizing momentum for matrix-valued parameters. Existing federated Muon methods demonstrate the benefit of matrix-aware optimization in federated learning, but still require transmitting full layer-size updates and optimizer state. A natural way to reduce communication is to directly apply Muon to LoRA factors, but this changes the optimized object and weakens Muon's matrix-aware update geometry. We propose FedSubMuon, a communication-efficient federated Muon fine-tuning method that optimizes compact coefficient matrices within shared structured subspaces. This design keeps Muon on a single matrix-valued trainable object, while reducing the client upload to compact coefficient matrices. We further introduce FedSubMuon-GT, an accuracy-oriented extension that uses projected gradients to adapt tracked subspace bases toward task-relevant gradient directions. Experiments on instruction tuning and mathematical reasoning show that FedSubMuon-GT achieves the best overall accuracy on four of five dataset-model pairs, while FedSubMuon performs best under all matched communication budgets. On Dolly-15K, the closest communication baseline requires 5.5 times and 1.4 times more total communication on Llama-1B and Qwen-4B, respectively.",
+   "dateline": "[Submitted on 5 Sep 2026]",
+   "abs_A": [
+    "subspace"
+   ],
+   "abs_B": [],
+   "abs_C": [
+    "learn"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.06989",
+   "title": "Lightweight Generative Image Semantic Communication over Packet Erasure Channels",
+   "authors": "Yufei Bo, Haoshuo Zhang, Meixia Tao, Jing He, Xinming Huang",
+   "subjects": "Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [],
+   "title_B": [
+    "generative"
+   ],
+   "title_C": [],
+   "abstract": "This paper addresses packet loss in semantic communication caused by network congestion or channel fluctuations. We propose LGSemCom, a lightweight generative packet-level joint source-channel coding (JSCC) framework for efficient and robust image transmission over packet erasure channels. Unlike conventional distortion-oriented recovery methods that yield blurry averages over erased regions, LGSemCom reformulates image recovery under packet erasures as a conditional generative task. By leveraging adversarial learning, the proposed decoder synthesizes plausible details without increasing complexity during inference. A key innovation of our framework is an erasure-aware weighting (EAW) strategy, which prioritizes generation in erased regions while preserving pixel fidelity in correctly received areas. To ensure computational efficiency, LGSemCom employs a fully convolutional codec based on efficient long-range attention blocks (ELABs) that capture global semantic dependencies with low complexity. Extensive experiments show that LGSemCom achieves superior perceptual reconstruction quality compared with existing benchmarks under severe packet loss, while achieving an order of magnitude faster inference. These attributes make LGSemCom highly suitable for latency-sensitive applications on resource-constrained edge devices.",
+   "dateline": "[Submitted on 7 Sep 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "generative",
+    "prior"
+   ],
+   "abs_C": [
+    "learn"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.07666",
+   "title": "MpSub: A Momentum $p$-Dimensional Subspace Trust-Region Method for Derivative-Free Fine-Tuning of Large Language Models",
+   "authors": "Yuyang Wang, Haoyu Yao, Pengcheng Xie",
+   "subjects": "Machine Learning (cs.LG); Optimization and Control (math.OC)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "subspace"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "Full-parameter fine-tuning of large language models has substantial memory costs because backpropagation stores activations and gradients. Zeroth-order optimization avoids this by estimating update directions from loss evaluations, but existing methods require tuning a sensitive learning rate for each model and task. We propose the momentum $p$-dimensional subspace trust-region method (MpSub). At each iteration, MpSub searches within a $p$-dimensional subspace: one direction preserves historical momentum from the most recent accepted step, while the remaining directions explore via fresh random sampling. The subspace gradient is estimated by central differences, a trial step is computed from a linear trust-region model, and the trust-region radius adapts according to the agreement between predicted and observed loss reduction, eliminating the learning rate. For LLM fine-tuning, evaluations within an iteration share a minibatch, and directions are regenerated in place from seeds, using forward passes alone. For smooth deterministic objectives under unorthogonalized Gaussian directions, we bound the finite-difference error, quantify gradient energy captured by the subspace, and prove that $\\lim_{k\\to\\infty} \\|\\nabla f(x_k)\\|_2 = 0$ almost surely under a safeguarded radius update. Under a matched budget of 8,400 training-objective forward passes, we fine-tune OPT-125M and OPT-350M on CommitmentBank. With the same preset parameters at both model sizes, MpSub attains mean test accuracies of 0.673 and 0.690 over three seeds, matching tuned MeZO (0.685) without any learning-rate search.",
+   "dateline": "[Submitted on 7 Sep 2026]",
+   "abs_A": [
+    "subspace"
+   ],
+   "abs_B": [],
+   "abs_C": [
+    "learn"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.07926",
+   "title": "Exact Degrees of Freedom of Spatially Sparse MIMO Channels Without Prior CSI",
+   "authors": "Yifeng Xiong, Weijiang Zhao, Fan Liu, Shi Jin, Jianhua Zhang",
+   "subjects": "Information Theory (cs.IT); Signal Processing (eess.SP)",
+   "cats": [
+    "cs.IT",
+    "eess.SP"
+   ],
+   "title_A": [],
+   "title_B": [
+    "prior"
+   ],
+   "title_C": [],
+   "abstract": "We characterize the degree of freedom (DoF) of a point-to-point blockwise memoryless channel without prior channel state information (CSI), with a fixed number $K$ of propagation paths, where the transmitter (Tx) and the receiver (Rx) are equipped with nonuniform linear arrays (NULAs) of $N_t$ and $N_r$ antennas, respectively. The positions of array elements are fixed, known, pairwise distinct, and need not be equally spaced. The uniform linear array (ULA) is a special case. In each block of length $T$, the continuous angles of arrival (AoAs), angles of departure (AoDs), and independent complex Gaussian path gains are redrawn. Both Tx and Rx know the state distributions but are not given the current realizations before transmission. The receiver may estimate the channel from reference signals or decode without explicit channel estimation, with reference symbols counted in $T$ and their energy counted against the power constraint. Under the aforementioned model, we show that the DoF is $1-\\frac{1}{T}$ for $K=1$, and $K(1-\\frac{3}{2T})$ for $K \\geq 2$, when $N_r\\ge K+1$, $N_t\\ge\\max\\{K,2\\}$, and $T\\ge K$. The analytical results are further demonstrated by their applications to the DoF tradeoff analysis in integrated sensing and communication (ISAC). For more general array structures, an achievability result is established, while the converse remains open in general.",
+   "dateline": "[Submitted on 7 Sep 2026 (v1), last revised 11 Sep 2026 (this version, v2)]",
+   "abs_A": [],
+   "abs_B": [
+    "prior"
+   ],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.08200",
+   "title": "SIM: Subspace Interaction-based Method for Token-Level Text Anomaly Detection",
+   "authors": "Kehan Yan, Yue Tan, Qingfeng Chen, Shiyuan Li, Yu Zheng, Yixin Liu",
+   "subjects": "Machine Learning (cs.LG)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "subspace"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "Token-level text anomaly detection, as an emerging trend of text anomaly detection, moves beyond coarse-grained document-level detection by localizing anomalous tokens within text. By providing fine-grained abnormality prediction, token-level text anomaly detection plays a critical role in various real-world applications, such as spam filtering and fake news detection. However, existing methods still rely on the global distance calculation for scoring, during which the local anomaly signals are severely diluted by numerous redundant normal feature dimensions. Moreover, pre-trained language models used in these methods inevitably smooth out surface anomalies, further limiting their effectiveness in token-level anomaly detection. To address these limitations, we propose a Subspace Interaction-based Method (SIM for short) for token-level text anomaly detection. To prevent local signal dilution, SIM adopts a subspace interaction-based anomaly detector, which decouples high-dimensional token embeddings into multiple low-dimensional ones, amplifying localized anomaly signals hidden within specific dimensions. To counteract the over-smoothing effect, we design a hard pseudo-anomaly generation module to construct pseudo-anomalous tokens, simulating the subtle anomalies obscured by semantic smoothing. Also, a probabilistic boundary loss is developed to standardize anomaly scores into statistical distances, effectively enforcing anomalous instances to deviate significantly from the normal distribution center. Extensive experiments on multiple benchmark datasets verify the effectiveness of SIM and demonstrate its remarkable efficiency, robustness, and interpretability. The source code is available at: this https URL.",
+   "dateline": "[Submitted on 8 Sep 2026]",
+   "abs_A": [
+    "subspace"
+   ],
+   "abs_B": [],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.08593",
+   "title": "FedGenSC: Federated Generative Semantic Communication with Channel-Aware Adaptation",
+   "authors": "Rita Abou Fares, Razan Al Kakoun, Maher Nouiehed, Hadi Sarieddeen",
+   "subjects": "Signal Processing (eess.SP); Machine Learning (cs.LG)",
+   "cats": [
+    "eess.SP",
+    "cs.LG"
+   ],
+   "title_A": [],
+   "title_B": [
+    "generative"
+   ],
+   "title_C": [],
+   "abstract": "Integrating generative adversarial networks (GANs) into federated semantic communication (SemCom) is a natural progression, as generative priors can recover semantic fidelity under channel distortion that discriminative decoders cannot. However, naive GAN federation introduces three failure modes that prior work has, to the best of our knowledge, neither identified nor resolved: discriminator aggregation instability under non-independent and identically distributed (non-IID) data, semantic drift caused by divergent local embedding spaces, and channel-agnostic generation that cannot adapt to heterogeneous link conditions. We propose federated generative semantic communication (FedGenSC), which mitigates all three by employing a global generator with local-only discriminators, providing cross-client semantic information through a semantic prototype bank, and conditioning generation on the instantaneous signal-to-noise ratio (SNR). Experiments on the Europarl dataset over Rayleigh fading channels (K=10 clients, Dirichlet {\\alpha}=0.5) show that FedGenSC under non-IID data outperforms the FedDeepSC baseline across the tested SNR range, achieving up to a 58.2% relative improvement in bilingual evaluation understudy (BLEU)-1 at 18 dB. Ablation studies confirm the independent contribution of each component.",
+   "dateline": "[Submitted on 8 Sep 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "generative",
+    "prior"
+   ],
+   "abs_C": [
+    "deep"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.12579",
+   "title": "SCOPE-OPSD: Fisher-Conditioned Privileged Subspaces for On-Policy Self-Distillation",
+   "authors": "Yunmeng Chen (1), Kunyu Wang (2), Peihan Li (1), Yi Wang (1), Shuyin Xia (3), Yi Liu (1), Xinyong Cheng (2), Dehui Wang (2), Xiangyong Zhai (2), Yanxing Liu (1), Song Liu (1) ((1) Chongqing Ant Consumer Finance Co., Ltd., (2) Alibaba Cloud Computing Co., Ltd., (3) Chongqing University of Posts and Telecommunications)",
+   "subjects": "Machine Learning (cs.LG); Artificial Intelligence (cs.AI)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "subspace"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "On-policy self-distillation (OPSD) scores student-generated prefixes with a solution-conditioned self-teacher, yet transfers supervision only through next-token probabilities. We ask whether the aligned final-layer discrepancy offers a useful second channel, and how to test that channel without confusing its geometry with auxiliary strength. SCOPE-OPSD projects the privileged teacher-student residual onto a frozen rank-64 factor estimated from residual covariance and language-model-head Fisher sensitivity. It reuses the forwards already required by OPSD and adds neither rollouts nor inference-time modules. A matched Random control preserves the structured factor's rank and nonzero spectrum and uses per-arm gradient-RMS calibration, isolating the effect of the data-dependent orientation. Across the complete 25/50/75/100-step trajectories for Qwen3-1.7B, 4B, and 8B, Structured is never below Pure OPSD, with strict gains in 11 of the 12 model-checkpoint combinations and an exact tie at 4B step 25. Structured also exceeds matched Random in 10 of the 12 combinations. At step 75 on Qwen3-1.7B, Structured exceeds matched Random by 1.39 Macro Avg@12 points in each of two independent training reruns. A cross-fitted diagnostic also shows 4.40 times greater held-out privileged-gap capture than the matched random orientation. The results support a compact, Fisher-conditioned privileged subspace for short-budget OPSD.",
+   "dateline": "[Submitted on 11 Sep 2026]",
+   "abs_A": [
+    "subspace"
+   ],
+   "abs_B": [],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.12670",
+   "title": "Unified Constrained Geometric Configuration Optimization for Source Localization Systems: A Riemannian Manifold-Based Approach",
+   "authors": "Xin Cheng, Feng Shu, Gangle Sun, Xinrui Li, Yuqi Chen, Guangjie Han",
+   "subjects": "Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [],
+   "title_B": [
+    "riemannian",
+    "manifold"
+   ],
+   "title_C": [],
+   "abstract": "Time of arrival (TOA), time difference of arrival (TDOA), received signal strength (RSS), received signal strength difference (RSSD) and angle of arrival (AOA) are commonly used techniques for source localization. The positioning accuracy of these systems depends heavily on the geometric configuration of sensors, which is typically constrained by practical conditions. This paper presents a unified framework for optimizing sensor geometry across all five localization systems, explicitly incorporating both distance and angle constraints on sensor positions. First, the Cramér-Rao lower bounds (CRLBs) of these systems are transformed to obtain a unified expression. Based on this expression, a unified constrained geometric configuration optimization problem is formulated. The problem is then simplified into a compact form by replacing the sensor-target angles with an orientation matrix. Subsequently, a Riemannian manifold-based constrained geometric configuration optimization algorithm (RM-CGCOA) is proposed to optimize the sensor-target distances and the orientation matrix. This algorithm casts the orientation matrix onto a product manifold of unit circles. An adaptive pullback is further proposed to strictly enforce angle-related inequality constraints, ensuring that all iterates remain feasible when updating the orientation matrix via the Riemannian gradient. Within RM-CGCOA, analytical optimal distances are derived for TOA, TDOA, RSS and AOA, whereas for RSSD, the distances are updated using projected gradient descent (PGD) together with the orientation matrix. Experimental results demonstrate that the proposed RM-CGCOA consistently achieves a significantly lower position error bound (PEB) compared with the existing strategies and yields a similar PEB to the near-optimal search algorithm, but with a much faster running time.",
+   "dateline": "[Submitted on 11 Sep 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "riemannian",
+    "manifold"
+   ],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.13492",
+   "title": "From Priors to Projections: Geometry and simplified MIMO demodulation of probabilistic shaping",
+   "authors": "Kirill Ivanov, Wei Yang, Mahmoud Taherzadeh Boroujeni, Jing Jiang",
+   "subjects": "Information Theory (cs.IT)",
+   "cats": [
+    "cs.IT"
+   ],
+   "title_A": [],
+   "title_B": [
+    "prior"
+   ],
+   "title_C": [],
+   "abstract": "Probabilistic shaping (PS) is a well-known method to achieve improved performance upon a regular quadrature amplitude modulation (QAM) by taking the target constellation and making the distribution of underlying points non-uniform. It has been extensively studied over the years for the additive white Gaussian noise (AWGN) and Rayleigh fading channels. However, the potential of probabilistic shaping in the multiple-input and multiple-output (MIMO) setting needs further investigations. In this paper, we prove that if shaped symbols follow Maxwell-Boltzmann distribution, the optimal maximum a posteriori (MAP) detection is equivalent to the case of uniform constellation with a simple preprocessing step. Our approach has multiple benefits. It enables to utilize the same processing chain for both shaped and unshaped system, which simplifies the receiver architecture. This technique can be applied for both linear MMSE and nonlinear (near-)MAP demapper types. In addition, the complexity of adaptive methods such as sphere decoding can be reduced.",
+   "dateline": "[Submitted on 11 Sep 2026]",
+   "abs_A": [
+    "constellation"
+   ],
+   "abs_B": [],
+   "abs_C": [],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.15488",
+   "title": "Rotation-Based Subspace Tracking for Robust Kernel PCA on Streaming Data",
+   "authors": "Kris Lokere, John Fossaceca",
+   "subjects": "Machine Learning (cs.LG)",
+   "cats": [
+    "cs.LG"
+   ],
+   "title_A": [
+    "subspace"
+   ],
+   "title_B": [],
+   "title_C": [],
+   "abstract": "Machine learning models process large amounts of data, and Principal Component Analysis (PCA) is a widely used technique to reduce the dimensionality of the data and extract useful features. In practice, datasets often change over time (data drift) and/or arrive one sample at a time (streaming data), making it infeasible to process the entire dataset at once in batch mode. Real-world data also often contains nonlinear patterns, which traditional PCA cannot extract. Kernel PCA addresses this by implicitly mapping samples into a Reproducing Kernel Hilbert Space (RKHS). Raw data also often contains outliers, which can have an outsized effect on the estimated subspace unless the algorithm is made robust. However, existing online robust kernel PCA algorithms are designed to converge to a subspace that is assumed to be fixed, and gradient-descent-based updates lose their effectiveness at tracking further changes once this initial alignment is achieved. This paper introduces a rotation-based update mechanism, which updates the subspace estimate by rotating it toward each new incoming feature vector in Reproducing Kernel Hilbert Space, rather than relying on gradient descent alone. We present two complementary rotation strategies, and show that the extent of rotation can be moderated by a robust influence function to mitigate the effect of outliers. Through experiments on synthetic streaming data with a known ground-truth subspace, we show that per-sample rotations converge faster than gradient descent alone, demonstrating an effective mechanism for dynamically tracking a nonlinear subspace in streaming data.",
+   "dateline": "[Submitted on 14 Sep 2026]",
+   "abs_A": [
+    "subspace"
+   ],
+   "abs_B": [],
+   "abs_C": [
+    "learn"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.16588",
+   "title": "Environment-Aware Diffusion Model for Massive MIMO-OFDM Channel Estimation",
+   "authors": "Wanchen Hu, Jie Yang, Yi Song, Jun Xia, Shuangyang Li, Yu Zhu, Giuseppe Caire",
+   "subjects": "Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [],
+   "title_B": [
+    "diffusion"
+   ],
+   "title_C": [],
+   "abstract": "This paper proposes an environment-aware diffusion based channel estimation in massive multiple-input multiple-output orthogonal frequency division multiplexing (MIMO-OFDM) systems. The high dimensionality of massive MIMO channels combined with limited pilot resources makes accurate estimation challenging. To address this issue, we exploit the spatial variability of wireless channels by training a diffusion model to learn the location-conditioned distribution of channel state information, which provides an environment-aware prior for channel estimation. Based on this learned prior, a posterior inference algorithm is developed to incorporate pilot observations into the reverse diffusion process, enabling Bayesian channel estimation by combining the received-signal likelihood with the learned channel prior. By jointly leveraging location information and measurement data, the proposed approach improves estimation accuracy under limited pilot resources. Simulation results based on ray-tracing channel datasets demonstrate that the proposed method consistently outperforms conventional estimators and existing learning-based approaches across various signal-to-noise ratios and pilot configurations.",
+   "dateline": "[Submitted on 15 Sep 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "diffusion",
+    "learned prior",
+    "prior"
+   ],
+   "abs_C": [
+    "learn"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.16619",
+   "title": "DiSR-ECG: Residual Shifting Conditional Diffusion for Robust ECG Super-Resolution",
+   "authors": "Fan-Yi Hsu, I Chiu, Kuan-Chen Wang, Sheng-Yu Peng, Yu Tsao",
+   "subjects": "Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [],
+   "title_B": [
+    "diffusion"
+   ],
+   "title_C": [],
+   "abstract": "Electrocardiogram (ECG) signals are essential for arrhythmia diagnosis. With the growing adoption of long-term monitoring via wearable and portable devices, energy-efficient acquisition has become critical, motivating the development of ECG super-resolution (SR) techniques to reconstruct high-resolution signals from low-sampling-rate inputs. While recent SR methods based on discriminative neural networks have shown strong performance, their robustness under distribution shift remains uncertain, which poses a key challenge for real-world deployment. In this study, we propose DiSR-ECG, a residual shifting conditional diffusion framework for robust ECG SR. The model integrates residual shifting with Mamba-based temporal modeling and conditional guidance to enable accurate multi-lead reconstruction. Experiments on two large-scale ECG databases, PTB-XL for in-domain evaluation and Chapman Shaoxing for cross-dataset evaluation, demonstrate that DiSR ECG achieves state-of-the-art performance in both settings, with particularly strong generalization under distribution shift. These results highlight the potential of DiSR-ECG to provide reliable and clinically applicable ECG reconstruction for real-world monitoring.",
+   "dateline": "[Submitted on 15 Sep 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "diffusion"
+   ],
+   "abs_C": [
+    "neural"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.16948",
+   "title": "AntennaFlow: A Generative Flow Model for Offset Correction in Phaseless Antenna Testing",
+   "authors": "Yongzhi Li, Chongting Shen, Menglin Chen, Xun Jiang, Zhengpeng Wang",
+   "subjects": "Artificial Intelligence (cs.AI); Information Theory (cs.IT)",
+   "cats": [
+    "cs.IT"
+   ],
+   "title_A": [],
+   "title_B": [
+    "generative"
+   ],
+   "title_C": [],
+   "abstract": "Near-field to far-field transformation is central to large-aperture antenna testing, yet two coupled challenges remain: costly phase acquisition at millimeter-wave bands and violations of the centering assumption under offset mounting. Existing methods address these issues separately, requiring either dense full-field data or offset vectors. We tackle both jointly by exploiting a key observation: amplitude fields under different offsets are coordinate-transformed views of the same near field. The challenge is to recover the center-aligned field from offset amplitudes without a phase or offset vector. We propose AntennaFlow, a three-stage framework: a contrastively learned encoder that maps offset views to an offset-invariant embedding, a deterministic flow-matching transport that maps offset amplitudes to center-aligned ones, and the Simplified Extrapolation Technique, whose Green-function Taylor expansion is valid only for centered fields. Experiments show that AntennaFlow enables fast, phaseless, offset-vector-free NF--FF reconstruction from sparse amplitude-only measurements, consistently outperforming existing baselines while preserving physical consistency.",
+   "dateline": "[Submitted on 15 Sep 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "flow-matching"
+   ],
+   "abs_C": [
+    "learn"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.17033",
+   "title": "One-Step Generative CSI Prediction",
+   "authors": "Mehdi Sattari, Javad Aliakbari, Alexandre Graell i Amat, Tommy Svensson",
+   "subjects": "Signal Processing (eess.SP)",
+   "cats": [
+    "eess.SP"
+   ],
+   "title_A": [],
+   "title_B": [
+    "generative"
+   ],
+   "title_C": [],
+   "abstract": "Channel state information (CSI) prediction has emerged as a promising approach for mitigating channel aging in wireless communication systems. Recently, generative models have been employed to develop CSI prediction frameworks capable of modeling the uncertainty in future channel realizations. However, the high computational complexity and inference latency of these models remain major obstacles to their practical deployment. To address these challenges, this paper focuses on a class of one-step generative models, namely MeanFlow models, in which inference requires only a single neural function evaluation (NFE), significantly reducing computational cost and latency. To alleviate the difficulty of generating CSI directly from noise, we introduce a channel-informed prior that initializes the generation process from an informative estimate of the future channel rather than pure Gaussian noise. Incorporating this channel-informed prior substantially improves both point prediction accuracy and uncertainty calibration. Furthermore, we compare the proposed MeanFlow-based CSI prediction framework with a recent diffusion-based approach. The results demonstrate that MeanFlow achieves comparable point prediction accuracy while producing better-calibrated CSI predictions with only a single NFE.",
+   "dateline": "[Submitted on 15 Sep 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "diffusion",
+    "generative",
+    "prior"
+   ],
+   "abs_C": [
+    "neural"
+   ],
+   "level": "GREY"
+  },
+  {
+   "id": "2609.17276",
+   "title": "Towards Digital Halftoning on Closed Manifolds--An Error Diffusion Scheme for the $2D$ Torus based on Sigma-Delta Quantization along the Rank-one Lattice",
+   "authors": "Felix Krahmer, Alessandro Lupoli",
+   "subjects": "Information Theory (cs.IT)",
+   "cats": [
+    "cs.IT"
+   ],
+   "title_A": [],
+   "title_B": [
+    "diffusion",
+    "manifold"
+   ],
+   "title_C": [],
+   "abstract": "Digital halftoning aims to represent continuous-tone images by binary patterns while preserving their visually relevant low-frequency content. Among the many available approaches, error-diffusion methods implement noise shaping through causal feedback filters and can be interpreted as two-dimensional versions of the signal quantization paradigm Sigma--Delta modulation. On closed domains, however, the terminal state of the underlying recurrence relation need not match the initial one, producing boundary artifacts. We study this problem for bandlimited functions on the two-dimensional torus. By arranging all pixels along a single closed rank-one lattice, we replace the multiple mismatches associated with separately processed rows and columns with a single terminal contribution, while retaining exact reconstruction. For a uniform lattice with \\(N=M^2+1\\) points, we obtain first- and second-order error bounds of order \\(N^{-1/2}\\) and \\(N^{-1}\\). A suitable constant update eliminates the terminal mismatch and reduces the spatial localization of the error without changing these asymptotic orders. For fixed-direction rank-one lattices, the corrected first- and second-order reconstructions instead achieve rates \\(N^{-1}\\) and \\(N^{-2}\\). Numerical experiments illustrate a reduction in boundary artifacts compared with classical schemes applied on the Cartesian grid.",
+   "dateline": "[Submitted on 15 Sep 2026]",
+   "abs_A": [],
+   "abs_B": [
+    "diffusion"
+   ],
+   "abs_C": [],
+   "level": "GREY"
+  }
+ ]
+}

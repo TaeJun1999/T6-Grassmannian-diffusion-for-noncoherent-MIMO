@@ -1,0 +1,5 @@
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+# Q-12 (b) ray tracing only:
+sionna-rt==2.1.0

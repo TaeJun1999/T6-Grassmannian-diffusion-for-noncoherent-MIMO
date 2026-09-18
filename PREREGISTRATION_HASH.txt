@@ -1,0 +1,7 @@
+T6 go/no-go pre-registration — commitment hash
+file: gate_evidence_T6.md (contains the PRE-REGISTRATION block fixed on 2026-09-16, before any gate-(i) experiment)
+sha256: cdb2b6197f6a8f8ee521fe53cd05d2139f06a00b05382d5f39d9b18369abb47c
+committed: 2026-09-18
+
+내용은 공개하지 않는다. 논문 제출 시 이 커밋의 타임스탬프와 해시로 '기준을 실험 전에 고정했다'는 사실만 증명하고,
+요구가 있으면 원문을 공개한다. 원문은 이 저장소의 records/ (Private) 또는 Claude 프로젝트에 있다.

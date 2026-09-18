@@ -1,0 +1,51 @@
+Sionna RT 2.1.0, scene 'munich', BS (8.5,21,27) ULA N=32, UE ULA M=2 @1.5 m, 28 GHz, v=3 m/s, max_depth 3, los+specular+diffuse, seed 1
+NOTE: the earlier 'NLOS_A/NLOS_B' labels were wrong (LOS test used normalized delays); P1-P4 are LOS points, P5 is verified NLOS.
+power = mean ||H||_F^2 in dB relative to 1e-9 (array sum, unit-gain iso elements)
+point                                        clutter                      S D[ms] d/lam spec%  rG(1)  rG(4) rG(16)  rS(1) r95 PEF2(1) PEF2(32) PEFe(32) LT(32)    pow
+P1 (40,48) LOS 49m, LOS 88%                  none                       0.0    10  2.80   100  0.972  0.976  0.966  0.664   4   0.915    0.715    0.803  0.823   13.6
+P1 (40,48) LOS 49m, LOS 88%                  none                       0.4    10  2.80    94  0.975  0.978  0.966  0.541   4   0.912    0.720    0.790  0.784   13.5
+P1 (40,48) LOS 49m, LOS 88%                  none                       0.8    10  2.80    94  0.973  0.970  0.959  0.490   5   0.905    0.792    0.867  0.498   13.4
+P1 (40,48) LOS 49m, LOS 88%                  none                       0.4     2  0.56    94  0.994  0.969  0.976  0.771   2   0.940    0.886    0.886  0.843   13.5
+P1 (40,48) LOS 49m, LOS 88%                  none                       0.4   100 28.00    94  0.943  0.942  0.751  0.507   7   0.602      nan      nan  0.314   14.1
+P2 (-8,48) LOS 41m, LOS 54%+refl 27/14%      none                       0.0    10  2.80   100  0.860  0.703  0.774  0.737   3   0.944    0.830    0.952  0.701   16.1
+P2 (-8,48) LOS 41m, LOS 54%+refl 27/14%      none                       0.4    10  2.80   100  0.870  0.735  0.807  0.619   3   0.938    0.807    0.943  0.653   16.0
+P2 (-8,48) LOS 41m, LOS 54%+refl 27/14%      none                       0.8    10  2.80   100  0.900  0.823  0.831  0.551   3   0.917    0.793    0.940  0.664   15.8
+P2 (-8,48) LOS 41m, LOS 54%+refl 27/14%      none                       0.4     2  0.56   100  0.912  0.703  0.807  0.736   3   0.939    0.913    0.968  0.952   16.9
+P2 (-8,48) LOS 41m, LOS 54%+refl 27/14%      none                       0.4   100 28.00   100  0.613  0.553  0.211  0.473   8   0.402      nan      nan  0.822   13.9
+P3 (8,40) LOS 32m, LOS 84%                   none                       0.0    10  2.80   100  0.882  0.919  0.914  0.872   2   0.972    0.942    0.942  0.985   17.5
+P3 (8,40) LOS 32m, LOS 84%                   none                       0.4    10  2.80    99  0.910  0.931  0.925  0.739   2   0.969    0.948    0.948  0.985   17.4
+P3 (8,40) LOS 32m, LOS 84%                   none                       0.8    10  2.80   100  0.961  0.943  0.942  0.562   2   0.962    0.948    0.948  0.961   17.4
+P3 (8,40) LOS 32m, LOS 84%                   none                       0.4     2  0.56    99  0.907  0.981  0.930  0.742   2   0.982    0.964    0.964  0.721   18.0
+P3 (8,40) LOS 32m, LOS 84%                   none                       0.4   100 28.00    99  0.938  0.946  0.902  0.590   2   0.946      nan      nan  0.842   16.9
+P2 (-8,48) LOS 41m, LOS 54%+refl 27/14%      24 cars, metal, S=0.4      0.4    10  2.80    71  0.663  0.530  0.098  0.659   3   0.939    0.812    0.954  0.679    nan
+P2 (-8,48) LOS 41m, LOS 54%+refl 27/14%      24 cars, metal, S=0.4      0.4     2  0.56    71  0.841  0.597  0.740  0.766   2   0.952    0.955    0.955  0.996    nan
+P4 (72,72) LOS 85m, LOS 83%                  24 cars, metal, S=0.4      0.4    10  2.80    81  0.836  0.765  0.344  0.700   3   0.950    0.916    0.972  0.979    nan
+P5 (56,16) NLOS 48m (verified), 4 spec paths none, S=0.4                0.4    10  2.80   100  0.820  0.780  0.442  0.433  11   0.706    0.628    0.810  0.707    1.1
+P5 (56,16) NLOS 48m (verified), 4 spec paths none, S=0.4                0.4     2  0.56   100  0.604  0.601  0.688  0.504  10   0.780    0.802    0.921  0.687    1.1
+P5 (56,16) NLOS 48m (verified), 4 spec paths 24 cars, metal, S=0.4      0.4    10  2.80    99  0.873  0.817  0.435  0.521   8   0.790    0.728    0.853  0.750    0.8
+P5 (56,16) NLOS 48m (verified), 4 spec paths 24 cars, metal, S=0.4      0.4     2  0.56    99  0.620  0.635  0.722  0.555   8   0.829    0.834    0.936  0.717    0.6
+
+Decision rule (open_questions Q-12, fixed 2026-09-17 before these runs): gain decorrelated <=> rho_G(1) <= 0.5 for v*Delta/lambda in [0.3, 3];
+LT persistence <=> LT_overlap(32) >= 0.8 and PEF_reff(32) >= 0.85.  Verdict per run:
+  P1 (40,48) LOS 49m, LOS 88%  none               D=10ms: gain-decorrelated=no  (0.97)  LT-persistent=no  (LT 0.82, PEFe 0.80)
+  P1 (40,48) LOS 49m, LOS 88%  none               D=10ms: gain-decorrelated=no  (0.98)  LT-persistent=no  (LT 0.78, PEFe 0.79)
+  P1 (40,48) LOS 49m, LOS 88%  none               D=10ms: gain-decorrelated=no  (0.97)  LT-persistent=no  (LT 0.50, PEFe 0.87)
+  P1 (40,48) LOS 49m, LOS 88%  none               D=2ms: gain-decorrelated=no  (0.99)  LT-persistent=YES (LT 0.84, PEFe 0.89)
+  P1 (40,48) LOS 49m, LOS 88%  none               D=100ms: gain-decorrelated=no  (0.94)  LT-persistent=no  (LT 0.31, PEFe nan)
+  P2 (-8,48) LOS 41m, LOS 54%+ none               D=10ms: gain-decorrelated=no  (0.86)  LT-persistent=no  (LT 0.70, PEFe 0.95)
+  P2 (-8,48) LOS 41m, LOS 54%+ none               D=10ms: gain-decorrelated=no  (0.87)  LT-persistent=no  (LT 0.65, PEFe 0.94)
+  P2 (-8,48) LOS 41m, LOS 54%+ none               D=10ms: gain-decorrelated=no  (0.90)  LT-persistent=no  (LT 0.66, PEFe 0.94)
+  P2 (-8,48) LOS 41m, LOS 54%+ none               D=2ms: gain-decorrelated=no  (0.91)  LT-persistent=YES (LT 0.95, PEFe 0.97)
+  P2 (-8,48) LOS 41m, LOS 54%+ none               D=100ms: gain-decorrelated=no  (0.61)  LT-persistent=no  (LT 0.82, PEFe nan)
+  P3 (8,40) LOS 32m, LOS 84%   none               D=10ms: gain-decorrelated=no  (0.88)  LT-persistent=YES (LT 0.98, PEFe 0.94)
+  P3 (8,40) LOS 32m, LOS 84%   none               D=10ms: gain-decorrelated=no  (0.91)  LT-persistent=YES (LT 0.98, PEFe 0.95)
+  P3 (8,40) LOS 32m, LOS 84%   none               D=10ms: gain-decorrelated=no  (0.96)  LT-persistent=YES (LT 0.96, PEFe 0.95)
+  P3 (8,40) LOS 32m, LOS 84%   none               D=2ms: gain-decorrelated=no  (0.91)  LT-persistent=no  (LT 0.72, PEFe 0.96)
+  P3 (8,40) LOS 32m, LOS 84%   none               D=100ms: gain-decorrelated=no  (0.94)  LT-persistent=no  (LT 0.84, PEFe nan)
+  P2 (-8,48) LOS 41m, LOS 54%+ 24 cars, metal, S= D=10ms: gain-decorrelated=no  (0.66)  LT-persistent=no  (LT 0.68, PEFe 0.95)
+  P2 (-8,48) LOS 41m, LOS 54%+ 24 cars, metal, S= D=2ms: gain-decorrelated=no  (0.84)  LT-persistent=YES (LT 1.00, PEFe 0.95)
+  P4 (72,72) LOS 85m, LOS 83%  24 cars, metal, S= D=10ms: gain-decorrelated=no  (0.84)  LT-persistent=YES (LT 0.98, PEFe 0.97)
+  P5 (56,16) NLOS 48m (verifie none, S=0.4        D=10ms: gain-decorrelated=no  (0.82)  LT-persistent=no  (LT 0.71, PEFe 0.81)
+  P5 (56,16) NLOS 48m (verifie none, S=0.4        D=2ms: gain-decorrelated=no  (0.60)  LT-persistent=no  (LT 0.69, PEFe 0.92)
+  P5 (56,16) NLOS 48m (verifie 24 cars, metal, S= D=10ms: gain-decorrelated=no  (0.87)  LT-persistent=no  (LT 0.75, PEFe 0.85)
+  P5 (56,16) NLOS 48m (verifie 24 cars, metal, S= D=2ms: gain-decorrelated=no  (0.62)  LT-persistent=no  (LT 0.72, PEFe 0.94)
